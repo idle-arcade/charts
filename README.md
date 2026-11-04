@@ -122,3 +122,7 @@ The same Monday/manual workflow checks out `idle-arcade/game` independently and 
 Manual dispatch accepts `source_ref` (default `main`) for the repository images. Every scheduled or manual run installs Gource, Xvfb, Mesa and FFmpeg on the disposable runner, renders real Git history using software OpenGL, and retains only the final **2560×1440 (16:9)** PNG. No video is written. Idle files stay visible; filenames/people are hidden and directory labels remain. `gource-source.json` records its source commit. Gource and Repocarto refresh together. Repository diagrams show file layout, not runtime dependencies or application architecture. Repo Visualizer has been removed; Gource and Repocarto are the selected repository visuals.
 
 [Browse the generated repository images](reports/repository/README.md).
+
+## Landscape exports
+
+All effort and completion charts use a fixed **1280×720 SVG canvas** and **2560×1440 PNG export**, both 16:9 landscape. Layout spacing accommodates the current category counts. Gource already renders at 2560×1440. Repocarto retains its native circle-packing layout and aspect ratio, as requested.

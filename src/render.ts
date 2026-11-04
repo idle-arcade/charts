@@ -25,14 +25,13 @@ const wrap = (value: string) =>
 
 export function renderSvg(
   option: echarts.EChartsOption,
-  height: number,
   description: string,
 ): string {
   const chart = echarts.init(null, undefined, {
     renderer: 'svg',
     ssr: true,
-    width: 1200,
-    height,
+    width: 1280,
+    height: 720,
   });
   try {
     chart.setOption({
@@ -74,10 +73,9 @@ export async function renderCharts(
   const write = async (
     name: string,
     option: echarts.EChartsOption,
-    height: number,
     description: string,
   ) => {
-    const svg = renderSvg(option, height, description);
+    const svg = renderSvg(option, description);
     await writeFile(join(directory, `${name}.svg`), svg);
     await sharp(Buffer.from(svg), { density: 144 })
       .png()
@@ -166,7 +164,6 @@ export async function renderCharts(
           },
         ],
       },
-      Math.max(440, rows.length * 60 + 220),
       `${dimension.title}: ${hours(result.totalHours)} included hours. ${scope}. ${subtitle}`,
     );
 
@@ -235,7 +232,6 @@ export async function renderCharts(
           ),
         })),
       },
-      590 + Math.ceil(rows.length / 5) * 30,
       `${dimension.title}, hours by assigned sprint. ${scope}.`,
     );
   }
@@ -312,7 +308,6 @@ export async function renderCharts(
           },
         ],
       },
-      Math.max(540, insights.disciplines.length * 63 + 260),
       'Recorded effort in hours by discipline and phase. Each included hour appears once.',
     );
   }
@@ -321,7 +316,6 @@ export async function renderCharts(
       config.dimensions.some((d) => d.key === key),
     )
   ) {
-    const stages = ['person', 'discipline', 'usecase'];
     await write(
       'effort-flow',
       {
@@ -341,7 +335,7 @@ export async function renderCharts(
             top: 180,
             bottom: 55,
             nodeWidth: 16,
-            nodeGap: 26,
+            nodeGap: 34,
             draggable: false,
             nodeAlign: 'justify',
             layoutIterations: 32,
@@ -370,12 +364,6 @@ export async function renderCharts(
           },
         ],
       },
-      Math.max(
-        680,
-        Math.max(...stages.map((stage) => result.aggregates[stage].length)) *
-          72 +
-          240,
-      ),
       'Recorded hours flowing from assigned person to discipline to use case. Stages must not be added together.',
     );
   }
@@ -432,7 +420,6 @@ export async function renderCharts(
         },
       ],
     },
-    560,
     completions.definition,
   );
 }

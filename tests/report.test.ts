@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto';
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
+import sharp from 'sharp';
 import { mkdtemp, readFile, readdir, rm } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
@@ -32,6 +33,20 @@ test('renders SVG/PNG, preserves unchanged bytes and the last valid report on re
     await publish(source, config, destination);
     const before = await files(destination);
     assert.equal(Object.keys(before).length, 28); // eleven SVG/PNG pairs + six data/report files
+    for (const name of Object.keys(before).filter((name) =>
+      name.endsWith('.svg'),
+    )) {
+      assert.match(
+        await readFile(join(destination, name), 'utf8'),
+        /width="1280" height="720"/,
+      );
+      const raster = await sharp(
+        join(destination, name.replace('.svg', '.png')),
+      ).metadata();
+      assert.equal(raster.width, 2560);
+      assert.equal(raster.height, 1440);
+    }
+
     assert.ok(
       (await readFile(join(destination, 'charts/person.svg'), 'utf8')).includes(
         'Bastian',
@@ -89,5 +104,5 @@ test('chart rendering is deterministic within the same process', () => {
     yAxis: {},
     series: [{ type: 'bar' as const, data: [1] }],
   };
-  assert.equal(renderSvg(option, 440, 'Test'), renderSvg(option, 440, 'Test'));
+  assert.equal(renderSvg(option, 'Test'), renderSvg(option, 'Test'));
 });
