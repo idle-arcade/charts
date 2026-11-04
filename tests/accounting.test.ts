@@ -82,7 +82,7 @@ test('skips the whole issue for missing/conflicting labels or assignees; all dim
   assert.equal(result.aggregates.person[0].category, 'Bastian');
 });
 
-test('includes archived and open board issues, logs missing sprint, uses login fallback', () => {
+test('includes archived and open board issues without a sprint quietly, uses login fallback', () => {
   const record = item('a', { archived: true, sprint: null });
   record.issue!.state = 'OPEN';
   record.issue!.assignees[0].name = null;
@@ -92,7 +92,9 @@ test('includes archived and open board issues, logs missing sprint, uses login f
   );
   assert.equal(result.totalHours, 1.25);
   assert.equal(result.aggregates.person[0].category, 'crafter');
-  assert.match(messages[0], /missing-sprint.*https:\/\//);
+  assert.deepEqual(messages, []);
+  assert.deepEqual(result.diagnostics, []);
+  assert.equal(result.included[0].sprint, null);
 });
 
 test('sprint scope filters by iteration identity and never substitutes parent rollups', () => {

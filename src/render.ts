@@ -208,7 +208,7 @@ export async function renderCharts(
         },
         xAxis: {
           type: 'category',
-          data: sprintIds.map((id) => sprints.get(id)?.title ?? 'Unassigned'),
+          data: sprintIds.map((id) => sprints.get(id)?.title ?? 'No sprint'),
           axisLabel: { interval: 0, rotate: sprintIds.length > 8 ? 30 : 0 },
         },
         yAxis: {

@@ -79,11 +79,6 @@ export function account(
           categories[dimension.key] = labels[0].slice(dimension.prefix!.length);
       }
     }
-    if (!item.sprint)
-      warn(
-        'missing-sprint',
-        'No Sprint; valid effort remains in overall totals and the Unassigned sprint group.',
-      );
     if (valid)
       included.push({
         issueId: issue.id,

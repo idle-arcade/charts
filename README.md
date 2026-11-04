@@ -44,7 +44,7 @@ Sprint output lives under `reports/OWNER-NUMBER/sprints/ITERATION_ID/`; it does 
 4. Actual Hours must be present, finite, and non-negative. Explicit zero and fractional hours are valid. Missing does not mean zero.
 5. Exactly one assignee and exactly one nonempty label from each configured label family are required. Invalid issues are excluded from **all** dimensions, keeping their denominators consistent. No inferred categories, equal splits, fabricated hours, or allocation overrides.
 6. Per-person effort uses the sole assignee's GitHub **display name**, falling back to login when no public name is set. This is the team's agreed ownership attribution, not independently verified time-log authorship.
-7. Missing Sprint is logged; otherwise valid effort remains in overall totals and the **Unassigned** sprint group. A sprint-specific report includes only issues assigned that iteration ID. Sprint attribution is not a date of work.
+7. A missing Sprint is valid and produces no warning or data-quality entry. Its effort remains in overall totals and the **No sprint** group. A sprint-specific report includes only issues assigned that iteration ID. Sprint attribution is not a date of work.
 
 Every skip or data-quality issue prints its issue URL/item ID and reason to the console and is saved in `quality.json`. Fix the original issues/project values and rerun. There is no ignore list or silent fallback. Parent exclusions are logged as `parent-rollup`, not treated as source errors. Percentages describe **valid included recorded effort**; skipped records mean the report may understate actual team effort. The four views describe the same hours and must not be added together.
 
