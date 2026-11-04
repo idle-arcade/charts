@@ -100,3 +100,11 @@ Each report contains `charts/*.svg`, `charts/*.png`, `snapshot.json`, `effort.cs
 Tests cover hand-calculated rollups and nested parents, off-board children, deduplication, missing/zero/fractional/invalid hours, assignee/display-name handling, missing/conflicting labels, missing sprint, archived/open issues, 1,000-item pagination, nested pagination, partial API failures, deterministic repeated SVG/PNG output, and preservation of the last report after a rendering failure. Run `npm run check` before changing the reporting rules. A second team member should review the accounting and charts before using them in blog 5.
 
 References: [ECharts SVG SSR](https://echarts.apache.org/handbook/en/how-to/cross-platform/server/), [GitHub Projects API](https://docs.github.com/en/graphql/reference/projects), [GraphQL rate limits](https://docs.github.com/en/graphql/overview/rate-limits-and-query-limits-for-the-graphql-api), [workflow schedules](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+
+## Initial verification (2026-11-04)
+
+- [Successful first manual run](https://github.com/idle-arcade/charts/actions/runs/41901801717), which generated [report commit 2a7ef7e](https://github.com/idle-arcade/charts/commit/2a7ef7e).
+- [Successful unchanged rerun](https://github.com/idle-arcade/charts/actions/runs/41901980545): fresh fetch, identical reports, no commit.
+- Source coverage at that snapshot: 125 board items, 82 included leaf issues, 99.9997 recorded hours (displayed as 100.00 h); 23 parent rollups excluded. Missing-hours and assignee diagnostics overlap and are available in the report and run logs.
+- The fetch used four GraphQL requests totaling eight reported rate-limit points. All 11 tests, typechecking, formatting, SVG/PNG generation, and automated report publication passed. A second team member's review remains separate from these automated checks.
+- `SOURCE_TOKEN` is configured in this repository's Actions secrets. The initial read-only token expires on **2026-12-04**; rotate the secret before then. Local fresh fetches need their own `SOURCE_TOKEN` environment/`.env` value or a GitHub CLI credential with `read:project`; the repository secret cannot be downloaded. Offline snapshot replay needs neither.
