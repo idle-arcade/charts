@@ -1,5 +1,6 @@
 import * as echarts from 'echarts';
 import sharp from 'sharp';
+import { effortInsights, weeklyCompletions } from './insights.ts';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { join } from 'node:path';
 import type { Config, Dimension, Result, Snapshot } from './types.ts';
@@ -66,6 +67,7 @@ export async function renderCharts(
   snapshot: Snapshot,
   result: Result,
   scope: string,
+  sprintId?: string,
 ): Promise<void> {
   await mkdir(directory, { recursive: true });
   const subtitle = `${config.title}\n${scope} · snapshot ${snapshot.fetchedAt.slice(0, 10)} · ${result.included.length} included issues`;
@@ -237,4 +239,201 @@ export async function renderCharts(
       `${dimension.title}, hours by assigned sprint. ${scope}.`,
     );
   }
+  const insights = effortInsights(result, config);
+  if (
+    config.dimensions.some((d) => d.key === 'discipline') &&
+    config.dimensions.some((d) => d.key === 'phase')
+  ) {
+    const max = Math.max(1, ...insights.heatmap.map((cell) => cell.hours));
+    await write(
+      'discipline-phase',
+      {
+        title: {
+          text: 'Discipline × phase',
+          subtext: subtitle,
+          left: 38,
+          top: 28,
+          textStyle: { fontSize: 28, color: '#0f172a' },
+          subtextStyle: { fontSize: 13, lineHeight: 22 },
+        },
+        grid: { left: 260, right: 75, top: 160, bottom: 110 },
+        xAxis: {
+          type: 'category',
+          data: insights.phases.map((name) =>
+            name.replace(/^./, (x) => x.toUpperCase()),
+          ),
+          splitArea: { show: true },
+          axisLine: { show: false },
+          axisTick: { show: false },
+          axisLabel: { fontSize: 14 },
+        },
+        yAxis: {
+          type: 'category',
+          inverse: true,
+          data: insights.disciplines.map((name) =>
+            name.replace(/^./, (x) => x.toUpperCase()),
+          ),
+          axisLine: { show: false },
+          axisTick: { show: false },
+          axisLabel: { fontSize: 14, margin: 18 },
+        },
+        visualMap: {
+          min: 0,
+          max,
+          calculable: false,
+          orient: 'horizontal',
+          left: 'center',
+          bottom: 22,
+          text: ['More hours', '0 h'],
+          inRange: { color: ['#eef2ff', '#a5b4fc', '#6366f1', '#3730a3'] },
+        },
+        series: [
+          {
+            type: 'heatmap',
+            data: insights.heatmap.map((cell) => ({
+              value: [
+                insights.phases.indexOf(cell.phase),
+                insights.disciplines.indexOf(cell.discipline),
+                cell.hours,
+              ],
+              label: { color: cell.hours > max * 0.55 ? '#ffffff' : '#334155' },
+            })),
+            label: {
+              show: true,
+              fontSize: 15,
+              formatter: (params) =>
+                `${hours((params.value as number[])[2])} h`,
+            },
+            itemStyle: {
+              borderWidth: 4,
+              borderColor: '#f8fafc',
+              borderRadius: 5,
+            },
+          },
+        ],
+      },
+      Math.max(540, insights.disciplines.length * 63 + 260),
+      'Recorded effort in hours by discipline and phase. Each included hour appears once.',
+    );
+  }
+  if (
+    ['person', 'discipline', 'usecase'].every((key) =>
+      config.dimensions.some((d) => d.key === key),
+    )
+  ) {
+    const stages = ['person', 'discipline', 'usecase'];
+    await write(
+      'effort-flow',
+      {
+        title: {
+          text: 'Where the effort flows',
+          subtext: `${subtitle}\nPerson → discipline → use case · every stage represents the same ${hours(result.totalHours)} hours`,
+          left: 38,
+          top: 28,
+          textStyle: { fontSize: 28, color: '#0f172a' },
+          subtextStyle: { fontSize: 13, lineHeight: 22 },
+        },
+        series: [
+          {
+            type: 'sankey',
+            left: 165,
+            right: 235,
+            top: 180,
+            bottom: 55,
+            nodeWidth: 16,
+            nodeGap: 26,
+            draggable: false,
+            nodeAlign: 'justify',
+            layoutIterations: 32,
+            data: insights.sankey.nodes
+              .filter((node) => node.hours > 0)
+              .map((node) => {
+                const dimension = config.dimensions.find(
+                  (d) => d.key === node.stage,
+                )!;
+                return {
+                  name: node.id,
+                  depth: node.depth,
+                  value: node.hours,
+                  itemStyle: { color: color(dimension, node.category) },
+                  label: {
+                    position:
+                      node.depth === 0 ? ('left' as const) : ('right' as const),
+                    formatter: `${wrap(display(node.category, dimension))}\n${hours(node.hours)} h`,
+                    fontSize: 12,
+                    lineHeight: 18,
+                  },
+                };
+              }),
+            links: insights.sankey.links,
+            lineStyle: { color: 'source', opacity: 0.26, curveness: 0.5 },
+          },
+        ],
+      },
+      Math.max(
+        680,
+        Math.max(...stages.map((stage) => result.aggregates[stage].length)) *
+          72 +
+          240,
+      ),
+      'Recorded hours flowing from assigned person to discipline to use case. Stages must not be added together.',
+    );
+  }
+  const completions = weeklyCompletions(snapshot, sprintId);
+  await write(
+    'completed-by-week',
+    {
+      title: {
+        text: 'Completed leaf issues · by closing week',
+        subtext: `${scope} · current board · latest GitHub completion date · Berlin weeks\nIncludes completed leaf issues regardless of recorded hours; current week may be partial.`,
+        left: 38,
+        top: 28,
+        textStyle: { fontSize: 25, color: '#0f172a' },
+        subtextStyle: { fontSize: 13, lineHeight: 22 },
+      },
+      grid: { left: 85, right: 55, top: 165, bottom: 80 },
+      xAxis: {
+        type: 'category',
+        data: completions.weeks.map((row) => row.week),
+        name: 'Week starting Monday',
+        nameLocation: 'middle',
+        nameGap: 40,
+        axisLabel: {
+          interval: 0,
+          rotate: completions.weeks.length > 8 ? 30 : 0,
+        },
+      },
+      yAxis: {
+        type: 'value',
+        minInterval: 1,
+        name: 'Leaf issues',
+        splitLine: { lineStyle: { color: '#e2e8f0', type: 'dashed' } },
+      },
+      graphic: !completions.weeks.length
+        ? [
+            {
+              type: 'text',
+              left: 'center',
+              top: 'middle',
+              style: {
+                text: 'No completed leaf issues with GitHub completion dates',
+                fontSize: 18,
+                fill: '#64748b',
+              },
+            },
+          ]
+        : [],
+      series: [
+        {
+          type: 'bar',
+          barMaxWidth: 70,
+          data: completions.weeks.map((row) => row.count),
+          itemStyle: { color: '#6366f1', borderRadius: [6, 6, 0, 0] },
+          label: { show: true, position: 'top', fontSize: 14 },
+        },
+      ],
+    },
+    560,
+    completions.definition,
+  );
 }

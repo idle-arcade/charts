@@ -9,6 +9,7 @@ import {
 } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { account } from './accounting.ts';
+import { effortInsights, weeklyCompletions } from './insights.ts';
 import { renderCharts } from './render.ts';
 import type { Config, Result, Snapshot } from './types.ts';
 
@@ -72,8 +73,22 @@ export async function publish(
   const backup = `${stage}-previous`;
   let hadPrevious = false;
   try {
-    await renderer(join(stage, 'charts'), config, snapshot, result, scope);
+    await renderer(
+      join(stage, 'charts'),
+      config,
+      snapshot,
+      result,
+      scope,
+      sprintId,
+    );
     await writeFile(join(stage, 'snapshot.json'), json(snapshot));
+    await writeFile(
+      join(stage, 'insights.json'),
+      json({
+        effort: effortInsights(result, config),
+        completions: weeklyCompletions(snapshot, sprintId),
+      }),
+    );
     await writeFile(
       join(stage, 'aggregates.json'),
       json({
@@ -120,6 +135,27 @@ export async function publish(
       const rows = result.aggregates[dimension.key];
       return `## ${dimension.title}\n\n![${dimension.title}](charts/${dimension.key}.svg)\n\n| Category | Hours | Share | Issues |\n| --- | ---: | ---: | ---: |\n${rows.map((row) => `| ${md(row.category)} | ${row.hours.toFixed(2)} | ${row.percentage.toFixed(1)}% | ${row.issues} |`).join('\n')}\n\n![${dimension.title} by sprint](charts/${dimension.key}-by-sprint.svg)`;
     });
+    if (
+      config.dimensions.some((d) => d.key === 'discipline') &&
+      config.dimensions.some((d) => d.key === 'phase')
+    )
+      sections.push(
+        '## Discipline × phase\n\n![Effort heatmap](charts/discipline-phase.svg)',
+      );
+    if (
+      ['person', 'discipline', 'usecase'].every((key) =>
+        config.dimensions.some((d) => d.key === key),
+      )
+    )
+      sections.push(
+        '## Effort flow\n\n![Person to discipline to use case](charts/effort-flow.svg)\n\nEach stage represents the same recorded hours. Links aggregate adjacent categories.',
+      );
+    sections.push(
+      '## Completed leaf issues by closing week\n\n![Completed leaf issues](charts/completed-by-week.svg)\n\nCounts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks start Monday in Europe/Berlin; the current week may be partial.',
+    );
+    sections.push(
+      `## Native burn-up\n\n[View the GitHub-provided historical burn-up](https://github.com/orgs/${config.owner}/projects/${config.project}/insights). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.\n\n[Repository maps and Gource trial](../../repository/README.md)`,
+    );
     const qualityCounts = new Map<string, number>();
     for (const diagnostic of result.diagnostics)
       qualityCounts.set(

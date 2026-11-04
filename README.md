@@ -14,7 +14,7 @@ npm run check
 npm run report
 ```
 
-The default command fetches fresh project data and generates all four category charts and four sprint charts, each as SVG and PNG, under `reports/idle-arcade-1/latest/`.
+The default command fetches fresh project data and generates all four category charts, four sprint charts, a discipline × phase heatmap, an effort-flow Sankey, and a weekly completion chart, each as SVG and PNG, under `reports/idle-arcade-1/latest/`.
 
 Authentication: set `SOURCE_TOKEN` in your environment or copy `.env.example` to `.env` and fill it locally. Alternatively, a signed-in GitHub CLI with `read:project` access is used automatically. `.env` is ignored. Never put a credential in `config/report.json`, a command-line argument, committed data, or logs.
 
@@ -106,5 +106,19 @@ References: [ECharts SVG SSR](https://echarts.apache.org/handbook/en/how-to/cros
 - [Successful first manual run](https://github.com/idle-arcade/charts/actions/runs/41901801717), which generated [report commit 2a7ef7e](https://github.com/idle-arcade/charts/commit/2a7ef7e).
 - [Successful unchanged rerun](https://github.com/idle-arcade/charts/actions/runs/41901980545): fresh fetch, identical reports, no commit.
 - Source coverage at that snapshot: 125 board items, 82 included leaf issues, 99.9997 recorded hours (displayed as 100.00 h); 23 parent rollups excluded. Missing-hours and assignee diagnostics overlap and are available in the report and run logs.
-- The fetch used four GraphQL requests totaling eight reported rate-limit points. All 11 tests, typechecking, formatting, SVG/PNG generation, and automated report publication passed. A second team member's review remains separate from these automated checks.
+- The fetch used four GraphQL requests totaling eight reported rate-limit points. All initial 11 tests, typechecking, formatting, SVG/PNG generation, and automated report publication passed. A second team member's review remains separate from these automated checks.
 - `SOURCE_TOKEN` is configured in this repository's Actions secrets. The initial read-only token expires on **2026-12-04**; rotate the secret before then. Local fresh fetches need their own `SOURCE_TOKEN` environment/`.env` value or a GitHub CLI credential with `read:project`; the repository secret cannot be downloaded. Offline snapshot replay needs neither.
+
+## Additional charts and repository images
+
+The discipline × phase heatmap and Person → discipline → use case Sankey use the same valid leaf effort records and reconcile to the existing total. Zero-hour records remain in the machine-readable aggregates; zero-width flows are omitted from the drawing. `insights.json` contains the cell values, Sankey nodes/links and completion records.
+
+The weekly completion chart uses **GitHub-provided closing dates and completion reasons**, without keeping a local sequence of story snapshots or reconstructing historical states. It counts currently completed leaf issues on the current board, grouped by their latest closing timestamp. Parents and not-planned closures do not count. Each issue counts once. Reopened issues do not count until completed again, at which point they move to their latest closing week. Weeks start Monday in Europe/Berlin; current weeks can be partial. This chart includes completed leaves without valid effort data, so its issue count can exceed the effort chart's record count. It describes the current cohort; it does not claim to reproduce the board's membership or hierarchy on each historic date.
+
+A direct [GitHub native burn-up reference](https://github.com/orgs/idle-arcade/projects/1/insights) is included in each report. There is no documented public Insights time-series/export endpoint in the Projects schema checked during implementation. We therefore do not implement a reconstructed burn-up, poll daily project state, or add a story-history store. The existing source export remains a reproducibility input for the current report only; earlier exports are not used to derive trends.
+
+The same Monday/manual workflow checks out `idle-arcade/game` independently and runs the existing **Repo Visualizer** and **Repocarto** Actions. Their source commits are pinned; Repocarto's npm release is pinned as well. Both automatic commits are disabled, and our existing final commit step publishes their outputs only to this charts repository under `reports/repository/`. The source game checkout is never edited or pushed. A separate disposable visualization clone has dependency/build folders, binary assets and lockfiles removed from its working tree/index to keep both tools focused on readable source structure. The source commit and renderer versions are recorded in `source.json`.
+
+Manual dispatch accepts `source_ref` (default `main`) for the repository images and an optional **`gource_preview`** boolean (default false). Enabling it installs Gource, Xvfb, Mesa and FFmpeg on the disposable runner, renders real Git history using software OpenGL, and retains only the final 2560×1440 PNG. No video is written. Idle files stay visible; filenames/people are hidden and directory labels remain. `gource-source.json` records its source commit. The Gource trial is not refreshed on scheduled runs, so check its own provenance before comparing it with the other images. Repository diagrams show file layout, not runtime dependencies or application architecture.
+
+[Browse the generated repository images](reports/repository/README.md).

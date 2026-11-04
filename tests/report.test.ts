@@ -31,7 +31,7 @@ test('renders SVG/PNG, preserves unchanged bytes and the last valid report on re
     const source = snapshot([item('a'), item('b', { hours: 0.75 })]);
     await publish(source, config, destination);
     const before = await files(destination);
-    assert.equal(Object.keys(before).length, 21); // eight SVG/PNG pairs + five data/report files
+    assert.equal(Object.keys(before).length, 28); // eleven SVG/PNG pairs + six data/report files
     assert.ok(
       (await readFile(join(destination, 'charts/person.svg'), 'utf8')).includes(
         'Bastian',

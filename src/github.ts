@@ -15,6 +15,8 @@ type RawIssue = {
   title: string;
   state: string;
   updatedAt: string;
+  closedAt: string | null;
+  stateReason: string | null;
   parent: { id: string } | null;
   subIssues: { totalCount: number };
   labels: Connection<{ name: string }>;
@@ -205,7 +207,7 @@ export async function fetchSnapshot(
           nodes { id isArchived type
             hours: fieldValueByName(name: $hours) { ... on ProjectV2ItemFieldNumberValue { number } }
             sprint: fieldValueByName(name: $sprint) { ... on ProjectV2ItemFieldIterationValue { iterationId title startDate duration } }
-            content { __typename ... on Issue { id number url title state updatedAt parent { id } subIssues(first: 1) { totalCount }
+            content { __typename ... on Issue { id number url title state updatedAt closedAt stateReason parent { id } subIssues(first: 1) { totalCount }
               labels(first: 100) { nodes { name } ${page} }
               assignees(first: 100) { nodes { login name } ${page} }
             } }
@@ -254,6 +256,8 @@ export async function fetchSnapshot(
         title: raw.title,
         state: raw.state,
         updatedAt: raw.updatedAt,
+        closedAt: raw.closedAt ?? null,
+        stateReason: raw.stateReason ?? null,
         parentId: raw.parent?.id ?? null,
         subIssueCount: raw.subIssues.totalCount,
         labels: labels.map((label) => label.name).sort(),

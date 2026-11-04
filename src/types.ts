@@ -27,6 +27,8 @@ export type Issue = {
   title: string;
   state: string;
   updatedAt: string;
+  closedAt?: string | null;
+  stateReason?: string | null;
   parentId: string | null;
   subIssueCount: number;
   labels: string[];
