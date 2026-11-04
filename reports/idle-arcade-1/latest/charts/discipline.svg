@@ -1,56 +1,56 @@
 <svg role="img" aria-label="By discipline: 100 included hours. All project effort. IDLE Arcade · Effort report
-All project effort · snapshot 2026-11-04 · 82 included issues" width="1200" height="700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1200 700">
-<rect width="1200" height="700" x="0" y="0" fill="#f8fafc"></rect>
-<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans;font-weight:700;" xml:space="preserve" y="14" transform="translate(1089.44 34)" fill="#4f46e5">100 h</text>
-<path d="M300.5 155L300.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M403.5 155L403.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M507.5 155L507.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M610.5 155L610.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M714.5 155L714.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M818.5 155L818.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M921.5 155L921.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M1025.5 155L1025.5 635" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(662.5 669)" fill="#334155">Recorded effort (hours)</text>
-<path d="M-87.4 -9.5l87.4 0l0 19l-87.4 0Z" transform="translate(282 185)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 185)" fill="#54555a">Requirements</text>
-<path d="M-96 -9.5l96 0l0 19l-96 0Z" transform="translate(282 245)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 245)" fill="#54555a">Implementation</text>
-<path d="M-82.7 -9.5l82.7 0l0 19l-82.7 0Z" transform="translate(282 305)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 305)" fill="#54555a">Infrastructure</text>
-<path d="M-82 -9.5l82 0l0 19l-82 0Z" transform="translate(282 365)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 365)" fill="#54555a">Management</text>
-<path d="M-43.7 -9.5l43.7 0l0 19l-43.7 0Z" transform="translate(282 425)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 425)" fill="#54555a">Design</text>
-<path d="M-46.1 -9.5l46.1 0l0 19l-46.1 0Z" transform="translate(282 485)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 485)" fill="#54555a">Testing</text>
-<path d="M-83.6 -9.5l83.6 0l0 19l-83.6 0Z" transform="translate(282 545)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 545)" fill="#54555a">Configuration</text>
-<path d="M-74.9 -9.5l74.9 0l0 19l-74.9 0Z" transform="translate(282 605)" fill="none" pointer-events="visible" class="chart-id-0"></path>
-<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 605)" fill="#54555a">Deployment</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(300 643)" fill="#54555a">0</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(403.5714 643)" fill="#54555a">5</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(507.1429 643)" fill="#54555a">10</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(610.7143 643)" fill="#54555a">15</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(714.2857 643)" fill="#54555a">20</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(817.8571 643)" fill="#54555a">25</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(921.4286 643)" fill="#54555a">30</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(1025 643)" fill="#54555a">35</text>
-<path d="M300 171.5L936.1 171.5A6 6 0 0 1 942.1 177.5L942.1 192.5A6 6 0 0 1 936.1 198.5L300 198.5L300 171.5Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
-<path d="M300 231.5L749.7 231.5A6 6 0 0 1 755.7 237.5L755.7 252.5A6 6 0 0 1 749.7 258.5L300 258.5L300 231.5Z" fill="#f59e0b" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-2"></path>
-<path d="M300 291.5L646.1 291.5A6 6 0 0 1 652.1 297.5L652.1 312.5A6 6 0 0 1 646.1 318.5L300 318.5L300 291.5Z" fill="#f97316" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="chart-id-3"></path>
-<path d="M300 351.5L604.7 351.5A6 6 0 0 1 610.7 357.5L610.7 372.5A6 6 0 0 1 604.7 378.5L300 378.5L300 351.5Z" fill="#3b82f6" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="chart-id-4"></path>
-<path d="M300 411.5L439 411.5A6 6 0 0 1 445 417.5L445 432.5A6 6 0 0 1 439 438.5L300 438.5L300 411.5Z" fill="#06b6d4" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="chart-id-5"></path>
-<path d="M300 471.5L418.3 471.5A6 6 0 0 1 424.3 477.5L424.3 492.5A6 6 0 0 1 418.3 498.5L300 498.5L300 471.5Z" fill="#10b981" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="chart-id-6"></path>
-<path d="M300 531.5L314.7 531.5A6 6 0 0 1 320.7 537.5L320.7 552.5A6 6 0 0 1 314.7 558.5L300 558.5L300 531.5Z" fill="#8b5cf6" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="chart-id-7"></path>
-<path d="M300 591.5L314.7 591.5A6 6 0 0 1 320.7 597.5L320.7 612.5A6 6 0 0 1 314.7 618.5L300 618.5L300 591.5Z" fill="#ec4899" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="chart-id-8"></path>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(954.1366 185)" fill="#334155">31 h   ·   31.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(767.7143 245)" fill="#334155">22 h   ·   22.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(664.1429 305)" fill="#334155">17 h   ·   17.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(622.7143 365)" fill="#334155">15 h   ·   15.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(457 425)" fill="#334155">7 h   ·   7.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(436.2857 485)" fill="#334155">6 h   ·   6.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(332.7143 545)" fill="#334155">1 h   ·   1.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(332.7143 605)" fill="#334155">1 h   ·   1.0%</text>
+All project effort · snapshot 2026-11-04 · 82 included issues" width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1280 720">
+<rect width="1280" height="720" x="0" y="0" fill="#f8fafc"></rect>
+<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans;font-weight:700;" xml:space="preserve" y="14" transform="translate(1169.44 34)" fill="#4f46e5">100 h</text>
+<path d="M300.5 155L300.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M415.5 155L415.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M530.5 155L530.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M645.5 155L645.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M760.5 155L760.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M875.5 155L875.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M990.5 155L990.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M1105.5 155L1105.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(702.5 689)" fill="#334155">Recorded effort (hours)</text>
+<path d="M-87.4 -9.5l87.4 0l0 19l-87.4 0Z" transform="translate(282 186.25)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 186.25)" fill="#54555a">Requirements</text>
+<path d="M-96 -9.5l96 0l0 19l-96 0Z" transform="translate(282 248.75)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 248.75)" fill="#54555a">Implementation</text>
+<path d="M-82.7 -9.5l82.7 0l0 19l-82.7 0Z" transform="translate(282 311.25)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 311.25)" fill="#54555a">Infrastructure</text>
+<path d="M-82 -9.5l82 0l0 19l-82 0Z" transform="translate(282 373.75)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 373.75)" fill="#54555a">Management</text>
+<path d="M-43.7 -9.5l43.7 0l0 19l-43.7 0Z" transform="translate(282 436.25)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 436.25)" fill="#54555a">Design</text>
+<path d="M-46.1 -9.5l46.1 0l0 19l-46.1 0Z" transform="translate(282 498.75)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 498.75)" fill="#54555a">Testing</text>
+<path d="M-83.6 -9.5l83.6 0l0 19l-83.6 0Z" transform="translate(282 561.25)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 561.25)" fill="#54555a">Configuration</text>
+<path d="M-74.9 -9.5l74.9 0l0 19l-74.9 0Z" transform="translate(282 623.75)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 623.75)" fill="#54555a">Deployment</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(300 663)" fill="#54555a">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(415 663)" fill="#54555a">5</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(530 663)" fill="#54555a">10</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(645 663)" fill="#54555a">15</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(760 663)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(875 663)" fill="#54555a">25</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(990 663)" fill="#54555a">30</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(1105 663)" fill="#54555a">35</text>
+<path d="M300 172.8L1007 172.8A6 6 0 0 1 1013 178.8L1013 193.8A6 6 0 0 1 1007 199.8L300 199.8L300 172.8Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
+<path d="M300 235.3L800 235.3A6 6 0 0 1 806 241.3L806 256.3A6 6 0 0 1 800 262.3L300 262.3L300 235.3Z" fill="#f59e0b" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-2"></path>
+<path d="M300 297.8L685 297.8A6 6 0 0 1 691 303.8L691 318.8A6 6 0 0 1 685 324.8L300 324.8L300 297.8Z" fill="#f97316" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M300 360.3L639 360.3A6 6 0 0 1 645 366.3L645 381.3A6 6 0 0 1 639 387.3L300 387.3L300 360.3Z" fill="#3b82f6" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="chart-id-4"></path>
+<path d="M300 422.8L455 422.8A6 6 0 0 1 461 428.8L461 443.8A6 6 0 0 1 455 449.8L300 449.8L300 422.8Z" fill="#06b6d4" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="chart-id-5"></path>
+<path d="M300 485.3L432 485.3A6 6 0 0 1 438 491.3L438 506.3A6 6 0 0 1 432 512.3L300 512.3L300 485.3Z" fill="#10b981" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="chart-id-6"></path>
+<path d="M300 547.8L317 547.8A6 6 0 0 1 323 553.8L323 568.8A6 6 0 0 1 317 574.8L300 574.8L300 547.8Z" fill="#8b5cf6" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="chart-id-7"></path>
+<path d="M300 610.3L317 610.3A6 6 0 0 1 323 616.3L323 631.3A6 6 0 0 1 317 637.3L300 637.3L300 610.3Z" fill="#ec4899" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="chart-id-8"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1024.9931 186.25)" fill="#334155">31 h   ·   31.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(818 248.75)" fill="#334155">22 h   ·   22.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(703 311.25)" fill="#334155">17 h   ·   17.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(657 373.75)" fill="#334155">15 h   ·   15.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(473 436.25)" fill="#334155">7 h   ·   7.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(450 498.75)" fill="#334155">6 h   ·   6.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(335 561.25)" fill="#334155">1 h   ·   1.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(335 623.75)" fill="#334155">1 h   ·   1.0%</text>
 <path d="M-5 -5l372 0l0 92l-372 0Z" transform="translate(43 33)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="chart-id-0"></path>
 <text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans, Arial, sans-serif;font-weight:700;" xml:space="preserve" y="14" transform="translate(43 33)" fill="#0f172a">By discipline</text>
 <path d="M0 38l362 0l0 44l-362 0Z" transform="translate(43 33)" fill="none" pointer-events="visible" class="chart-id-0"></path>
