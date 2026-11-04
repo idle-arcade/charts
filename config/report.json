@@ -1,0 +1,56 @@
+{
+  "owner": "idle-arcade",
+  "project": 1,
+  "hoursField": "Actual Hours",
+  "sprintField": "Sprint",
+  "title": "IDLE Arcade \u00b7 Effort report",
+  "dimensions": [
+    {
+      "key": "discipline",
+      "title": "By discipline",
+      "prefix": "discipline:",
+      "colors": {
+        "requirements": "#6366f1",
+        "design": "#06b6d4",
+        "implementation": "#f59e0b",
+        "testing": "#10b981",
+        "deployment": "#ec4899",
+        "configuration": "#8b5cf6",
+        "management": "#3b82f6",
+        "infrastructure": "#f97316"
+      }
+    },
+    {
+      "key": "phase",
+      "title": "By phase",
+      "prefix": "phase:",
+      "order": ["inception", "elaboration", "construction", "transition"],
+      "colors": {
+        "inception": "#6366f1",
+        "elaboration": "#06b6d4",
+        "construction": "#f59e0b",
+        "transition": "#10b981"
+      }
+    },
+    {
+      "key": "usecase",
+      "title": "By use case",
+      "prefix": "usecase:",
+      "colors": {
+        "project-preparation": "#6366f1",
+        "application-shell": "#06b6d4",
+        "darts": "#f59e0b",
+        "navigation": "#10b981",
+        "highscores": "#ec4899",
+        "responsive-layout": "#8b5cf6",
+        "telemetry": "#3b82f6",
+        "currencies": "#f97316"
+      }
+    },
+    {
+      "key": "person",
+      "title": "By person",
+      "source": "assignee"
+    }
+  ]
+}

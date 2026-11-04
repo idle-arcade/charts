@@ -1,0 +1,79 @@
+name: Generate effort reports
+
+on:
+  schedule:
+    - cron: '17 23 * * 1'
+      timezone: Europe/Berlin
+  workflow_dispatch:
+    inputs:
+      owner:
+        description: Source organization
+        default: idle-arcade
+        type: string
+      project:
+        description: Source project number
+        default: '1'
+        type: string
+      sprint:
+        description: Optional Sprint iteration ID (empty = all project effort)
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: charts-publish
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+      - name: Fetch, validate and render
+        env:
+          SOURCE_TOKEN: ${{ secrets.SOURCE_TOKEN }}
+          SOURCE_OWNER: ${{ inputs.owner || 'idle-arcade' }}
+          SOURCE_PROJECT: ${{ inputs.project || '1' }}
+          SOURCE_SPRINT: ${{ inputs.sprint }}
+        shell: bash
+        run: |
+          if [ -z "$SOURCE_TOKEN" ]; then
+            echo '::error::Add the SOURCE_TOKEN Actions secret with source Projects/Issues read access.'
+            exit 1
+          fi
+          args=(generate --owner "$SOURCE_OWNER" --project "$SOURCE_PROJECT")
+          if [ -n "$SOURCE_SPRINT" ]; then args+=(--sprint "$SOURCE_SPRINT"); fi
+          npm run report -- "${args[@]}"
+      - name: Commit changed reports
+        shell: bash
+        run: |
+          git add -- reports/
+          if git diff --cached --quiet; then
+            echo 'Report content unchanged; no commit required.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'reports: refresh project effort charts'
+          # A concurrent human push causes a safe failure; never force-push stale reports.
+          git push origin "HEAD:$DEFAULT_BRANCH"
+      - name: Upload generated reports
+        if: success() || failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: effort-reports
+          path: reports/
+          if-no-files-found: ignore
+          retention-days: 14
