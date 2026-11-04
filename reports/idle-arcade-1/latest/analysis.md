@@ -2,7 +2,7 @@
 
 All project effort · **100.00 recorded hours** · 82 included leaf issues.
 
-Source: [IDLE Arcade](https://github.com/orgs/idle-arcade/projects/1). Snapshot fetch window: 2026-11-04T19:56:52.014Z to 2026-11-04T19:56:55.190Z. Source SHA-256: `9585f4a458d67faf56b0dc1013931e6a6d5adef1bac440000d85f8124ea069ca`.
+Source: [IDLE Arcade](https://github.com/orgs/idle-arcade/projects/1). Snapshot fetch window: 2026-11-04T20:37:31.368Z to 2026-11-04T20:37:34.970Z. Source SHA-256: `8f3c7e35a797ee2ee454fc998f7716139c8b162c4adcc87438c7fd057ffebd7e`.
 
 ## By discipline
 
@@ -62,6 +62,28 @@ Source: [IDLE Arcade](https://github.com/orgs/idle-arcade/projects/1). Snapshot 
 | DevDukeKTM | 3.83 | 3.8% | 5 |
 
 ![By person by sprint](charts/person-by-sprint.svg)
+
+## Discipline × phase
+
+![Effort heatmap](charts/discipline-phase.svg)
+
+## Effort flow
+
+![Person to discipline to use case](charts/effort-flow.svg)
+
+Each stage represents the same recorded hours. Links aggregate adjacent categories.
+
+## Completed leaf issues by closing week
+
+![Completed leaf issues](charts/completed-by-week.svg)
+
+Counts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks start Monday in Europe/Berlin; the current week may be partial.
+
+## Native burn-up
+
+[View the GitHub-provided historical burn-up](https://github.com/orgs/idle-arcade/projects/1/insights). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.
+
+[Repository maps and Gource trial](../../repository/README.md)
 
 ## Accounting and coverage
 

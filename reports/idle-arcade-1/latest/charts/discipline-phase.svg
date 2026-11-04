@@ -1,0 +1,366 @@
+<svg role="img" aria-label="Recorded effort in hours by discipline and phase. Each included hour appears once." width="1200" height="764" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1200 764">
+<rect width="1200" height="764" x="0" y="0" fill="#f8fafc"></rect>
+<path d="M260 160l216.3 0l0 494l-216.2 0Z" fill="rgb(234,237,245)" fill-opacity="0.5" class="chart-id-0"></path>
+<path d="M476.3 160l216.3 0l0 494l-216.2 0Z" fill="rgb(255,255,255)" fill-opacity="0" class="chart-id-0"></path>
+<path d="M692.5 160l216.3 0l0 494l-216.2 0Z" fill="rgb(234,237,245)" fill-opacity="0.5" class="chart-id-0"></path>
+<path d="M908.8 160l216.3 0l0 494l-216.2 0Z" fill="rgb(255,255,255)" fill-opacity="0" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 190.875)" fill="#54555a">Requirements</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 252.625)" fill="#54555a">Implementation</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 314.375)" fill="#54555a">Infrastructure</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 376.125)" fill="#54555a">Management</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 437.875)" fill="#54555a">Design</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 499.625)" fill="#54555a">Testing</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 561.375)" fill="#54555a">Configuration</text>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(242 623.125)" fill="#54555a">Deployment</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" y="7" transform="translate(368.125 662)" fill="#54555a">Inception</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" y="7" transform="translate(584.375 662)" fill="#54555a">Elaboration</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" y="7" transform="translate(800.625 662)" fill="#54555a">Construction</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" y="7" transform="translate(1016.875 662)" fill="#54555a">Transition</text>
+<path d="M264.8 159.8L471.5 159.8A5 5 0 0 1 476.5 164.8L476.5 217A5 5 0 0 1 471.5 222L264.8 222A5 5 0 0 1 259.8 217L259.8 164.8A5 5 0 0 1 264.8 159.8Z" fill="rgb(215,222,254)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
+<path d="M481 159.8L687.8 159.8A5 5 0 0 1 692.8 164.8L692.8 217A5 5 0 0 1 687.8 222L481 222A5 5 0 0 1 476 217L476 164.8A5 5 0 0 1 481 159.8Z" fill="rgb(55,48,163)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-2"></path>
+<path d="M697.3 159.8L904 159.8A5 5 0 0 1 909 164.8L909 217A5 5 0 0 1 904 222L697.3 222A5 5 0 0 1 692.3 217L692.3 164.8A5 5 0 0 1 697.3 159.8Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 159.8L1120.3 159.8A5 5 0 0 1 1125.3 164.8L1125.3 217A5 5 0 0 1 1120.3 222L913.5 222A5 5 0 0 1 908.5 217L908.5 164.8A5 5 0 0 1 913.5 159.8Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 221.5L471.5 221.5A5 5 0 0 1 476.5 226.5L476.5 278.8A5 5 0 0 1 471.5 283.8L264.8 283.8A5 5 0 0 1 259.8 278.8L259.8 226.5A5 5 0 0 1 264.8 221.5Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M481 221.5L687.8 221.5A5 5 0 0 1 692.8 226.5L692.8 278.8A5 5 0 0 1 687.8 283.8L481 283.8A5 5 0 0 1 476 278.8L476 226.5A5 5 0 0 1 481 221.5Z" fill="rgb(83,83,213)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="chart-id-4"></path>
+<path d="M697.3 221.5L904 221.5A5 5 0 0 1 909 226.5L909 278.8A5 5 0 0 1 904 283.8L697.3 283.8A5 5 0 0 1 692.3 278.8L692.3 226.5A5 5 0 0 1 697.3 221.5Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 221.5L1120.3 221.5A5 5 0 0 1 1125.3 226.5L1125.3 278.8A5 5 0 0 1 1120.3 283.8L913.5 283.8A5 5 0 0 1 908.5 278.8L908.5 226.5A5 5 0 0 1 913.5 221.5Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="7" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 283.3L471.5 283.3A5 5 0 0 1 476.5 288.3L476.5 340.5A5 5 0 0 1 471.5 345.5L264.8 345.5A5 5 0 0 1 259.8 340.5L259.8 288.3A5 5 0 0 1 264.8 283.3Z" fill="rgb(215,222,254)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="8" ecmeta_ssr_type="chart" class="chart-id-1"></path>
+<path d="M481 283.3L687.8 283.3A5 5 0 0 1 692.8 288.3L692.8 340.5A5 5 0 0 1 687.8 345.5L481 345.5A5 5 0 0 1 476 340.5L476 288.3A5 5 0 0 1 481 283.3Z" fill="rgb(132,141,247)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="9" ecmeta_ssr_type="chart" class="chart-id-5"></path>
+<path d="M697.3 283.3L904 283.3A5 5 0 0 1 909 288.3L909 340.5A5 5 0 0 1 904 345.5L697.3 345.5A5 5 0 0 1 692.3 340.5L692.3 288.3A5 5 0 0 1 697.3 283.3Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="10" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 283.3L1120.3 283.3A5 5 0 0 1 1125.3 288.3L1125.3 340.5A5 5 0 0 1 1120.3 345.5L913.5 345.5A5 5 0 0 1 908.5 340.5L908.5 288.3A5 5 0 0 1 913.5 283.3Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="11" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 345L471.5 345A5 5 0 0 1 476.5 350L476.5 402.3A5 5 0 0 1 471.5 407.3L264.8 407.3A5 5 0 0 1 259.8 402.3L259.8 350A5 5 0 0 1 264.8 345Z" fill="rgb(207,215,254)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="12" ecmeta_ssr_type="chart" class="chart-id-6"></path>
+<path d="M481 345L687.8 345A5 5 0 0 1 692.8 350L692.8 402.3A5 5 0 0 1 687.8 407.3L481 407.3A5 5 0 0 1 476 402.3L476 350A5 5 0 0 1 481 345Z" fill="rgb(153,166,250)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="13" ecmeta_ssr_type="chart" class="chart-id-7"></path>
+<path d="M697.3 345L904 345A5 5 0 0 1 909 350L909 402.3A5 5 0 0 1 904 407.3L697.3 407.3A5 5 0 0 1 692.3 402.3L692.3 350A5 5 0 0 1 697.3 345Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="14" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 345L1120.3 345A5 5 0 0 1 1125.3 350L1125.3 402.3A5 5 0 0 1 1120.3 407.3L913.5 407.3A5 5 0 0 1 908.5 402.3L908.5 350A5 5 0 0 1 913.5 345Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="15" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 406.8L471.5 406.8A5 5 0 0 1 476.5 411.8L476.5 464A5 5 0 0 1 471.5 469L264.8 469A5 5 0 0 1 259.8 464L259.8 411.8A5 5 0 0 1 264.8 406.8Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="16" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M481 406.8L687.8 406.8A5 5 0 0 1 692.8 411.8L692.8 464A5 5 0 0 1 687.8 469L481 469A5 5 0 0 1 476 464L476 411.8A5 5 0 0 1 481 406.8Z" fill="rgb(183,196,253)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="17" ecmeta_ssr_type="chart" class="chart-id-8"></path>
+<path d="M697.3 406.8L904 406.8A5 5 0 0 1 909 411.8L909 464A5 5 0 0 1 904 469L697.3 469A5 5 0 0 1 692.3 464L692.3 411.8A5 5 0 0 1 697.3 406.8Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="18" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 406.8L1120.3 406.8A5 5 0 0 1 1125.3 411.8L1125.3 464A5 5 0 0 1 1120.3 469L913.5 469A5 5 0 0 1 908.5 464L908.5 411.8A5 5 0 0 1 913.5 406.8Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="19" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 468.5L471.5 468.5A5 5 0 0 1 476.5 473.5L476.5 525.8A5 5 0 0 1 471.5 530.8L264.8 530.8A5 5 0 0 1 259.8 525.8L259.8 473.5A5 5 0 0 1 264.8 468.5Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="20" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M481 468.5L687.8 468.5A5 5 0 0 1 692.8 473.5L692.8 525.8A5 5 0 0 1 687.8 530.8L481 530.8A5 5 0 0 1 476 525.8L476 473.5A5 5 0 0 1 481 468.5Z" fill="rgb(191,202,253)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="21" ecmeta_ssr_type="chart" class="chart-id-9"></path>
+<path d="M697.3 468.5L904 468.5A5 5 0 0 1 909 473.5L909 525.8A5 5 0 0 1 904 530.8L697.3 530.8A5 5 0 0 1 692.3 525.8L692.3 473.5A5 5 0 0 1 697.3 468.5Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="22" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 468.5L1120.3 468.5A5 5 0 0 1 1125.3 473.5L1125.3 525.8A5 5 0 0 1 1120.3 530.8L913.5 530.8A5 5 0 0 1 908.5 525.8L908.5 473.5A5 5 0 0 1 913.5 468.5Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="23" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 530.3L471.5 530.3A5 5 0 0 1 476.5 535.3L476.5 587.5A5 5 0 0 1 471.5 592.5L264.8 592.5A5 5 0 0 1 259.8 587.5L259.8 535.3A5 5 0 0 1 264.8 530.3Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="24" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M481 530.3L687.8 530.3A5 5 0 0 1 692.8 535.3L692.8 587.5A5 5 0 0 1 687.8 592.5L481 592.5A5 5 0 0 1 476 587.5L476 535.3A5 5 0 0 1 481 530.3Z" fill="rgb(230,235,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="25" ecmeta_ssr_type="chart" class="chart-id-10"></path>
+<path d="M697.3 530.3L904 530.3A5 5 0 0 1 909 535.3L909 587.5A5 5 0 0 1 904 592.5L697.3 592.5A5 5 0 0 1 692.3 587.5L692.3 535.3A5 5 0 0 1 697.3 530.3Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="26" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 530.3L1120.3 530.3A5 5 0 0 1 1125.3 535.3L1125.3 587.5A5 5 0 0 1 1120.3 592.5L913.5 592.5A5 5 0 0 1 908.5 587.5L908.5 535.3A5 5 0 0 1 913.5 530.3Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="27" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M264.8 592L471.5 592A5 5 0 0 1 476.5 597L476.5 649.3A5 5 0 0 1 471.5 654.3L264.8 654.3A5 5 0 0 1 259.8 649.3L259.8 597A5 5 0 0 1 264.8 592Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="28" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M481 592L687.8 592A5 5 0 0 1 692.8 597L692.8 649.3A5 5 0 0 1 687.8 654.3L481 654.3A5 5 0 0 1 476 649.3L476 597A5 5 0 0 1 481 592Z" fill="rgb(230,235,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="29" ecmeta_ssr_type="chart" class="chart-id-10"></path>
+<path d="M697.3 592L904 592A5 5 0 0 1 909 597L909 649.3A5 5 0 0 1 904 654.3L697.3 654.3A5 5 0 0 1 692.3 649.3L692.3 597A5 5 0 0 1 697.3 592Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="30" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M913.5 592L1120.3 592A5 5 0 0 1 1125.3 597L1125.3 649.3A5 5 0 0 1 1120.3 654.3L913.5 654.3A5 5 0 0 1 908.5 649.3L908.5 597A5 5 0 0 1 913.5 592Z" fill="rgb(238,242,255)" stroke="#f8fafc" stroke-width="4" ecmeta_series_index="0" ecmeta_data_index="31" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 190.875)" fill="#334155">3 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 190.875)" fill="#ffffff">28 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 190.875)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 190.875)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 252.625)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 252.625)" fill="#ffffff">22 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 252.625)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 252.625)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 314.375)" fill="#334155">3 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 314.375)" fill="#334155">14 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 314.375)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 314.375)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 376.125)" fill="#334155">4 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 376.125)" fill="#334155">11 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 376.125)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 376.125)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 437.875)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 437.875)" fill="#334155">7 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 437.875)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 437.875)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 499.625)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 499.625)" fill="#334155">6 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 499.625)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 499.625)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 561.375)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 561.375)" fill="#334155">1 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 561.375)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 561.375)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(368.125 623.125)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(584.375 623.125)" fill="#334155">1 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(800.625 623.125)" fill="#334155">0 h</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:15px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1016.875 623.125)" fill="#334155">0 h</text>
+<path d="M-41.8 -35l267.6 0l0 50l-267.6 0Z" transform="translate(507.98 727)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#cfd2d7" stroke-width="0" class="chart-id-0"></path>
+<g clip-path="url(#chart-id-11)">
+<polygon points="0 0 20 0 20 140 0 140" transform="matrix(0,-1,1,0,507.98,727)" fill="url(#chart-id-12)" class="chart-id-13"></polygon>
+<polygon points="0 0 20 0 20 140 0 140" transform="matrix(0,-1,1,0,507.98,727)" fill="url(#chart-id-14)" class="chart-id-15"></polygon>
+</g>
+<text dominant-baseline="central" text-anchor="end" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" x="-10" y="-10" transform="translate(507.98 727)" fill="#54555a">0 h</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" x="150" y="-9.999999999999991" transform="translate(507.98 727)" fill="#54555a">More hours</text>
+<path d="M-5 -5l372 0l0 92l-372 0Z" transform="translate(43 33)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans, Arial, sans-serif;font-weight:bold;" xml:space="preserve" y="14" transform="translate(43 33)" fill="#0f172a">Discipline × phase</text>
+<path d="M0 38l362 0l0 44l-362 0Z" transform="translate(43 33)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="49" transform="translate(43 33)" fill="#86878c">IDLE Arcade · Effort report</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="71" transform="translate(43 33)" fill="#86878c">All project effort · snapshot 2026-11-04 · 82 included issues</text>
+<defs >
+<clipPath id="chart-id-11">
+<path d="M3 0L17 0A3 3 0 0 1 20 3L20 137A3 3 0 0 1 17 140L3 140A3 3 0 0 1 0 137L0 3A3 3 0 0 1 3 0Z" transform="matrix(0,-1,1,0,507.98,727)" fill="#000" class="chart-id-16"></path>
+</clipPath>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="chart-id-12">
+<stop offset="0%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="1%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="2%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="3%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="4%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="5%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="6%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="7.000000000000001%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="8%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="9%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="10%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="11%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="12%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="13%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="14.000000000000002%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="15%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="16%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="17%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="18%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="19%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="20%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="21%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="22%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="23%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="24%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="25%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="26%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="27%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="28.000000000000004%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="28.999999999999996%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="30%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="31%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="32%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="33%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="34%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="35%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="36%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="37%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="38%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="39%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="40%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="41%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="42%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="43%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="44%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="45%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="46%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="47%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="48%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="49%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="50%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="51%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="52%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="53%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="54%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="55.00000000000001%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="56.00000000000001%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="56.99999999999999%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="57.99999999999999%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="59%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="60%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="61%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="62%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="63%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="64%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="65%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="66%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="67%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="68%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="69%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="70%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="71%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="72%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="73%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="74%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="75%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="76%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="77%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="78%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="79%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="80%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="81%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="82%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="83%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="84%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="85%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="86%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="87%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="88%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="89%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="90%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="91%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="92%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="93%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="94%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="95%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="96%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="97%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="98%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="99%" stop-color="rgb(207,210,215)"></stop>
+<stop offset="100%" stop-color="rgb(207,210,215)"></stop>
+</linearGradient>
+<linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="chart-id-14">
+<stop offset="0%" stop-color="rgb(238,242,255)"></stop>
+<stop offset="1%" stop-color="rgb(236,240,255)"></stop>
+<stop offset="2%" stop-color="rgb(234,238,255)"></stop>
+<stop offset="3%" stop-color="rgb(231,236,255)"></stop>
+<stop offset="4%" stop-color="rgb(229,235,255)"></stop>
+<stop offset="5%" stop-color="rgb(227,233,255)"></stop>
+<stop offset="6%" stop-color="rgb(225,231,254)"></stop>
+<stop offset="7.000000000000001%" stop-color="rgb(223,229,254)"></stop>
+<stop offset="8%" stop-color="rgb(220,227,254)"></stop>
+<stop offset="9%" stop-color="rgb(218,225,254)"></stop>
+<stop offset="10%" stop-color="rgb(216,223,254)"></stop>
+<stop offset="11%" stop-color="rgb(214,222,254)"></stop>
+<stop offset="12%" stop-color="rgb(212,220,254)"></stop>
+<stop offset="13%" stop-color="rgb(210,218,254)"></stop>
+<stop offset="14.000000000000002%" stop-color="rgb(207,216,254)"></stop>
+<stop offset="15%" stop-color="rgb(205,214,254)"></stop>
+<stop offset="16%" stop-color="rgb(203,212,254)"></stop>
+<stop offset="17%" stop-color="rgb(201,210,253)"></stop>
+<stop offset="18%" stop-color="rgb(199,209,253)"></stop>
+<stop offset="19%" stop-color="rgb(196,207,253)"></stop>
+<stop offset="20%" stop-color="rgb(194,205,253)"></stop>
+<stop offset="21%" stop-color="rgb(192,203,253)"></stop>
+<stop offset="22%" stop-color="rgb(190,201,253)"></stop>
+<stop offset="23%" stop-color="rgb(188,199,253)"></stop>
+<stop offset="24%" stop-color="rgb(185,197,253)"></stop>
+<stop offset="25%" stop-color="rgb(183,196,253)"></stop>
+<stop offset="26%" stop-color="rgb(181,194,253)"></stop>
+<stop offset="27%" stop-color="rgb(179,192,253)"></stop>
+<stop offset="28.000000000000004%" stop-color="rgb(177,190,252)"></stop>
+<stop offset="28.999999999999996%" stop-color="rgb(174,188,252)"></stop>
+<stop offset="30%" stop-color="rgb(172,186,252)"></stop>
+<stop offset="31%" stop-color="rgb(170,184,252)"></stop>
+<stop offset="32%" stop-color="rgb(168,182,252)"></stop>
+<stop offset="33%" stop-color="rgb(166,181,252)"></stop>
+<stop offset="34%" stop-color="rgb(164,178,252)"></stop>
+<stop offset="35%" stop-color="rgb(162,176,251)"></stop>
+<stop offset="36%" stop-color="rgb(160,174,251)"></stop>
+<stop offset="37%" stop-color="rgb(158,171,251)"></stop>
+<stop offset="38%" stop-color="rgb(156,169,250)"></stop>
+<stop offset="39%" stop-color="rgb(154,167,250)"></stop>
+<stop offset="40%" stop-color="rgb(152,164,250)"></stop>
+<stop offset="41%" stop-color="rgb(150,162,249)"></stop>
+<stop offset="42%" stop-color="rgb(148,160,249)"></stop>
+<stop offset="43%" stop-color="rgb(146,157,249)"></stop>
+<stop offset="44%" stop-color="rgb(144,155,248)"></stop>
+<stop offset="45%" stop-color="rgb(142,153,248)"></stop>
+<stop offset="46%" stop-color="rgb(140,150,248)"></stop>
+<stop offset="47%" stop-color="rgb(138,148,247)"></stop>
+<stop offset="48%" stop-color="rgb(136,146,247)"></stop>
+<stop offset="49%" stop-color="rgb(134,143,247)"></stop>
+<stop offset="50%" stop-color="rgb(132,141,247)"></stop>
+<stop offset="51%" stop-color="rgb(130,139,246)"></stop>
+<stop offset="52%" stop-color="rgb(128,136,246)"></stop>
+<stop offset="53%" stop-color="rgb(126,134,246)"></stop>
+<stop offset="54%" stop-color="rgb(124,132,245)"></stop>
+<stop offset="55.00000000000001%" stop-color="rgb(122,129,245)"></stop>
+<stop offset="56.00000000000001%" stop-color="rgb(120,127,245)"></stop>
+<stop offset="56.99999999999999%" stop-color="rgb(118,125,244)"></stop>
+<stop offset="57.99999999999999%" stop-color="rgb(116,122,244)"></stop>
+<stop offset="59%" stop-color="rgb(114,120,244)"></stop>
+<stop offset="60%" stop-color="rgb(112,118,243)"></stop>
+<stop offset="61%" stop-color="rgb(110,115,243)"></stop>
+<stop offset="62%" stop-color="rgb(108,113,243)"></stop>
+<stop offset="63%" stop-color="rgb(106,111,242)"></stop>
+<stop offset="64%" stop-color="rgb(104,108,242)"></stop>
+<stop offset="65%" stop-color="rgb(102,106,242)"></stop>
+<stop offset="66%" stop-color="rgb(100,104,241)"></stop>
+<stop offset="67%" stop-color="rgb(99,101,240)"></stop>
+<stop offset="68%" stop-color="rgb(97,100,238)"></stop>
+<stop offset="69%" stop-color="rgb(96,98,236)"></stop>
+<stop offset="70%" stop-color="rgb(95,97,233)"></stop>
+<stop offset="71%" stop-color="rgb(93,95,231)"></stop>
+<stop offset="72%" stop-color="rgb(92,93,229)"></stop>
+<stop offset="73%" stop-color="rgb(91,92,226)"></stop>
+<stop offset="74%" stop-color="rgb(89,90,224)"></stop>
+<stop offset="75%" stop-color="rgb(88,88,221)"></stop>
+<stop offset="76%" stop-color="rgb(87,87,219)"></stop>
+<stop offset="77%" stop-color="rgb(85,85,217)"></stop>
+<stop offset="78%" stop-color="rgb(84,84,214)"></stop>
+<stop offset="79%" stop-color="rgb(83,82,212)"></stop>
+<stop offset="80%" stop-color="rgb(81,80,210)"></stop>
+<stop offset="81%" stop-color="rgb(80,79,207)"></stop>
+<stop offset="82%" stop-color="rgb(79,77,205)"></stop>
+<stop offset="83%" stop-color="rgb(77,76,203)"></stop>
+<stop offset="84%" stop-color="rgb(76,74,200)"></stop>
+<stop offset="85%" stop-color="rgb(75,72,198)"></stop>
+<stop offset="86%" stop-color="rgb(73,71,196)"></stop>
+<stop offset="87%" stop-color="rgb(72,69,193)"></stop>
+<stop offset="88%" stop-color="rgb(71,67,191)"></stop>
+<stop offset="89%" stop-color="rgb(70,66,189)"></stop>
+<stop offset="90%" stop-color="rgb(68,64,186)"></stop>
+<stop offset="91%" stop-color="rgb(67,63,184)"></stop>
+<stop offset="92%" stop-color="rgb(66,61,182)"></stop>
+<stop offset="93%" stop-color="rgb(64,59,179)"></stop>
+<stop offset="94%" stop-color="rgb(63,58,177)"></stop>
+<stop offset="95%" stop-color="rgb(62,56,175)"></stop>
+<stop offset="96%" stop-color="rgb(60,54,172)"></stop>
+<stop offset="97%" stop-color="rgb(59,53,170)"></stop>
+<stop offset="98%" stop-color="rgb(58,51,168)"></stop>
+<stop offset="99%" stop-color="rgb(56,50,165)"></stop>
+<stop offset="100%" stop-color="rgb(55,48,163)"></stop>
+</linearGradient>
+</defs>
+<style ><![CDATA[
+.chart-id-0:hover {
+pointer-events:none;
+}
+.chart-id-1:hover {
+cursor:pointer;
+fill:rgba(236,244,255,1);
+}
+.chart-id-2:hover {
+cursor:pointer;
+fill:rgba(60,52,179,1);
+}
+.chart-id-3:hover {
+cursor:pointer;
+fill:rgba(255,255,255,1);
+}
+.chart-id-4:hover {
+cursor:pointer;
+fill:rgba(91,91,234,1);
+}
+.chart-id-5:hover {
+cursor:pointer;
+fill:rgba(145,155,255,1);
+}
+.chart-id-6:hover {
+cursor:pointer;
+fill:rgba(227,236,255,1);
+}
+.chart-id-7:hover {
+cursor:pointer;
+fill:rgba(168,182,255,1);
+}
+.chart-id-8:hover {
+cursor:pointer;
+fill:rgba(201,215,255,1);
+}
+.chart-id-9:hover {
+cursor:pointer;
+fill:rgba(210,222,255,1);
+}
+.chart-id-10:hover {
+cursor:pointer;
+fill:rgba(253,255,255,1);
+}
+.chart-id-16:hover {
+cursor:pointer;
+fill:rgba(0,0,0,1);
+}
+.chart-id-13:hover {
+cursor:pointer;
+fill:[object Object];
+}
+.chart-id-15:hover {
+cursor:pointer;
+fill:[object Object];
+}
+
+]]>
+
+</style>
+</svg>

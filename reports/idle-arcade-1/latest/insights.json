@@ -1,0 +1,1062 @@
+{
+  "effort": {
+    "heatmap": [
+      {
+        "discipline": "requirements",
+        "phase": "inception",
+        "hours": 2.9997
+      },
+      {
+        "discipline": "requirements",
+        "phase": "elaboration",
+        "hours": 28
+      },
+      {
+        "discipline": "requirements",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "requirements",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "implementation",
+        "phase": "inception",
+        "hours": 0
+      },
+      {
+        "discipline": "implementation",
+        "phase": "elaboration",
+        "hours": 22
+      },
+      {
+        "discipline": "implementation",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "implementation",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "infrastructure",
+        "phase": "inception",
+        "hours": 3
+      },
+      {
+        "discipline": "infrastructure",
+        "phase": "elaboration",
+        "hours": 14
+      },
+      {
+        "discipline": "infrastructure",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "infrastructure",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "management",
+        "phase": "inception",
+        "hours": 4
+      },
+      {
+        "discipline": "management",
+        "phase": "elaboration",
+        "hours": 11
+      },
+      {
+        "discipline": "management",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "management",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "design",
+        "phase": "inception",
+        "hours": 0
+      },
+      {
+        "discipline": "design",
+        "phase": "elaboration",
+        "hours": 7
+      },
+      {
+        "discipline": "design",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "design",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "testing",
+        "phase": "inception",
+        "hours": 0
+      },
+      {
+        "discipline": "testing",
+        "phase": "elaboration",
+        "hours": 6
+      },
+      {
+        "discipline": "testing",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "testing",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "configuration",
+        "phase": "inception",
+        "hours": 0
+      },
+      {
+        "discipline": "configuration",
+        "phase": "elaboration",
+        "hours": 1
+      },
+      {
+        "discipline": "configuration",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "configuration",
+        "phase": "transition",
+        "hours": 0
+      },
+      {
+        "discipline": "deployment",
+        "phase": "inception",
+        "hours": 0
+      },
+      {
+        "discipline": "deployment",
+        "phase": "elaboration",
+        "hours": 1
+      },
+      {
+        "discipline": "deployment",
+        "phase": "construction",
+        "hours": 0
+      },
+      {
+        "discipline": "deployment",
+        "phase": "transition",
+        "hours": 0
+      }
+    ],
+    "phases": [
+      "inception",
+      "elaboration",
+      "construction",
+      "transition"
+    ],
+    "disciplines": [
+      "requirements",
+      "implementation",
+      "infrastructure",
+      "management",
+      "design",
+      "testing",
+      "configuration",
+      "deployment"
+    ],
+    "sankey": {
+      "nodes": [
+        {
+          "id": "person:Crafter-Y",
+          "category": "Crafter-Y",
+          "stage": "person",
+          "depth": 0,
+          "hours": 56.1666
+        },
+        {
+          "id": "person:Kvrmaa",
+          "category": "Kvrmaa",
+          "stage": "person",
+          "depth": 0,
+          "hours": 13.166599999999999
+        },
+        {
+          "id": "person:Yawor1",
+          "category": "Yawor1",
+          "stage": "person",
+          "depth": 0,
+          "hours": 10.166599999999999
+        },
+        {
+          "id": "person:1lxlos",
+          "category": "1lxlos",
+          "stage": "person",
+          "depth": 0,
+          "hours": 9.8333
+        },
+        {
+          "id": "person:Saline1",
+          "category": "Saline1",
+          "stage": "person",
+          "depth": 0,
+          "hours": 6.8332999999999995
+        },
+        {
+          "id": "person:DevDukeKTM",
+          "category": "DevDukeKTM",
+          "stage": "person",
+          "depth": 0,
+          "hours": 3.8333
+        },
+        {
+          "id": "discipline:requirements",
+          "category": "requirements",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 30.9997
+        },
+        {
+          "id": "discipline:implementation",
+          "category": "implementation",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 22
+        },
+        {
+          "id": "discipline:infrastructure",
+          "category": "infrastructure",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 17
+        },
+        {
+          "id": "discipline:management",
+          "category": "management",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 15
+        },
+        {
+          "id": "discipline:design",
+          "category": "design",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 7
+        },
+        {
+          "id": "discipline:testing",
+          "category": "testing",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 6
+        },
+        {
+          "id": "discipline:configuration",
+          "category": "configuration",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 1
+        },
+        {
+          "id": "discipline:deployment",
+          "category": "deployment",
+          "stage": "discipline",
+          "depth": 1,
+          "hours": 1
+        },
+        {
+          "id": "usecase:project-preparation",
+          "category": "project-preparation",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 66.9997
+        },
+        {
+          "id": "usecase:application-shell",
+          "category": "application-shell",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 16
+        },
+        {
+          "id": "usecase:telemetry",
+          "category": "telemetry",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 7
+        },
+        {
+          "id": "usecase:darts",
+          "category": "darts",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 3
+        },
+        {
+          "id": "usecase:highscores",
+          "category": "highscores",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 3
+        },
+        {
+          "id": "usecase:currencies",
+          "category": "currencies",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 2
+        },
+        {
+          "id": "usecase:navigation",
+          "category": "navigation",
+          "stage": "usecase",
+          "depth": 2,
+          "hours": 2
+        }
+      ],
+      "links": [
+        {
+          "source": "person:Kvrmaa",
+          "target": "discipline:requirements",
+          "value": 4.6666
+        },
+        {
+          "source": "discipline:requirements",
+          "target": "usecase:project-preparation",
+          "value": 29.9997
+        },
+        {
+          "source": "person:Kvrmaa",
+          "target": "discipline:implementation",
+          "value": 5
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:application-shell",
+          "value": 10
+        },
+        {
+          "source": "person:Saline1",
+          "target": "discipline:requirements",
+          "value": 3.3333
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:infrastructure",
+          "value": 17
+        },
+        {
+          "source": "discipline:infrastructure",
+          "target": "usecase:project-preparation",
+          "value": 9
+        },
+        {
+          "source": "person:1lxlos",
+          "target": "discipline:testing",
+          "value": 3
+        },
+        {
+          "source": "discipline:testing",
+          "target": "usecase:project-preparation",
+          "value": 3
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:implementation",
+          "value": 14
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:project-preparation",
+          "value": 2
+        },
+        {
+          "source": "person:Kvrmaa",
+          "target": "discipline:testing",
+          "value": 2
+        },
+        {
+          "source": "person:DevDukeKTM",
+          "target": "discipline:requirements",
+          "value": 1.3333
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:design",
+          "value": 4
+        },
+        {
+          "source": "discipline:design",
+          "target": "usecase:project-preparation",
+          "value": 6
+        },
+        {
+          "source": "person:Saline1",
+          "target": "discipline:design",
+          "value": 2
+        },
+        {
+          "source": "person:1lxlos",
+          "target": "discipline:requirements",
+          "value": 5.3332999999999995
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:requirements",
+          "value": 12.6666
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:management",
+          "value": 5.5
+        },
+        {
+          "source": "discipline:management",
+          "target": "usecase:project-preparation",
+          "value": 15
+        },
+        {
+          "source": "person:Yawor1",
+          "target": "discipline:requirements",
+          "value": 3.6666
+        },
+        {
+          "source": "discipline:infrastructure",
+          "target": "usecase:application-shell",
+          "value": 5
+        },
+        {
+          "source": "discipline:testing",
+          "target": "usecase:application-shell",
+          "value": 1
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:navigation",
+          "value": 1
+        },
+        {
+          "source": "discipline:testing",
+          "target": "usecase:navigation",
+          "value": 1
+        },
+        {
+          "source": "person:Yawor1",
+          "target": "discipline:implementation",
+          "value": 3
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:darts",
+          "value": 2
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:testing",
+          "value": 1
+        },
+        {
+          "source": "discipline:testing",
+          "target": "usecase:darts",
+          "value": 1
+        },
+        {
+          "source": "person:Kvrmaa",
+          "target": "discipline:management",
+          "value": 1.5
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:highscores",
+          "value": 1
+        },
+        {
+          "source": "person:DevDukeKTM",
+          "target": "discipline:management",
+          "value": 2.5
+        },
+        {
+          "source": "person:Saline1",
+          "target": "discipline:management",
+          "value": 1.5
+        },
+        {
+          "source": "person:1lxlos",
+          "target": "discipline:management",
+          "value": 1.5
+        },
+        {
+          "source": "person:Yawor1",
+          "target": "discipline:management",
+          "value": 2.5
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:configuration",
+          "value": 1
+        },
+        {
+          "source": "discipline:configuration",
+          "target": "usecase:project-preparation",
+          "value": 1
+        },
+        {
+          "source": "discipline:infrastructure",
+          "target": "usecase:telemetry",
+          "value": 3
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:telemetry",
+          "value": 4
+        },
+        {
+          "source": "person:Crafter-Y",
+          "target": "discipline:deployment",
+          "value": 1
+        },
+        {
+          "source": "discipline:deployment",
+          "target": "usecase:project-preparation",
+          "value": 1
+        },
+        {
+          "source": "person:Yawor1",
+          "target": "discipline:design",
+          "value": 1
+        },
+        {
+          "source": "discipline:design",
+          "target": "usecase:highscores",
+          "value": 1
+        },
+        {
+          "source": "discipline:requirements",
+          "target": "usecase:highscores",
+          "value": 1
+        },
+        {
+          "source": "discipline:implementation",
+          "target": "usecase:currencies",
+          "value": 2
+        }
+      ]
+    }
+  },
+  "completions": {
+    "timezone": "Europe/Berlin",
+    "definition": "Currently completed leaf issues on the current board, grouped by their latest GitHub closing timestamp. Each issue counts once. This does not reconstruct former board membership or count repeated completion events.",
+    "weeks": [
+      {
+        "week": "2026-10-05",
+        "count": 18
+      },
+      {
+        "week": "2026-10-12",
+        "count": 13
+      },
+      {
+        "week": "2026-10-19",
+        "count": 24
+      },
+      {
+        "week": "2026-10-26",
+        "count": 20
+      },
+      {
+        "week": "2026-11-02",
+        "count": 4
+      }
+    ],
+    "issues": [
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcg-yw",
+        "url": "https://github.com/idle-arcade/game/issues/2",
+        "closedAt": "2026-10-11T13:06:57Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWchpJw",
+        "url": "https://github.com/idle-arcade/game/issues/7",
+        "closedAt": "2026-10-11T13:07:26Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjICw",
+        "url": "https://github.com/idle-arcade/game/issues/9",
+        "closedAt": "2026-10-11T13:07:30Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjQHw",
+        "url": "https://github.com/idle-arcade/game/issues/11",
+        "closedAt": "2026-10-11T13:07:37Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWchJHg",
+        "url": "https://github.com/idle-arcade/game/issues/3",
+        "closedAt": "2026-10-11T13:09:02Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWchXIw",
+        "url": "https://github.com/idle-arcade/game/issues/4",
+        "closedAt": "2026-10-11T13:09:02Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWchn1A",
+        "url": "https://github.com/idle-arcade/game/issues/6",
+        "closedAt": "2026-10-11T13:09:03Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWchYvQ",
+        "url": "https://github.com/idle-arcade/game/issues/5",
+        "closedAt": "2026-10-11T13:09:03Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjOtA",
+        "url": "https://github.com/idle-arcade/game/issues/10",
+        "closedAt": "2026-10-11T13:09:05Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjRsw",
+        "url": "https://github.com/idle-arcade/game/issues/12",
+        "closedAt": "2026-10-11T13:09:05Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjTUg",
+        "url": "https://github.com/idle-arcade/game/issues/13",
+        "closedAt": "2026-10-11T13:09:06Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjU1Q",
+        "url": "https://github.com/idle-arcade/game/issues/14",
+        "closedAt": "2026-10-11T13:09:06Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjl4A",
+        "url": "https://github.com/idle-arcade/game/issues/15",
+        "closedAt": "2026-10-11T13:09:07Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcj3NQ",
+        "url": "https://github.com/idle-arcade/game/issues/17",
+        "closedAt": "2026-10-11T13:09:08Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcjwfg",
+        "url": "https://github.com/idle-arcade/game/issues/16",
+        "closedAt": "2026-10-11T13:09:08Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWckDHQ",
+        "url": "https://github.com/idle-arcade/game/issues/18",
+        "closedAt": "2026-10-11T13:09:09Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcl8yQ",
+        "url": "https://github.com/idle-arcade/game/issues/19",
+        "closedAt": "2026-10-11T13:15:24Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWeNRvA",
+        "url": "https://github.com/idle-arcade/game/issues/35",
+        "closedAt": "2026-10-11T16:40:30Z",
+        "week": "2026-10-05"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW8R3RA",
+        "url": "https://github.com/idle-arcade/game/issues/50",
+        "closedAt": "2026-10-13T17:17:34Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7e2Sw",
+        "url": "https://github.com/idle-arcade/game/issues/40",
+        "closedAt": "2026-10-13T17:17:43Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7e1pQ",
+        "url": "https://github.com/idle-arcade/game/issues/39",
+        "closedAt": "2026-10-15T13:55:35Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcmkAQ",
+        "url": "https://github.com/idle-arcade/game/issues/21",
+        "closedAt": "2026-10-15T19:51:43Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7-8tw",
+        "url": "https://github.com/idle-arcade/game/issues/45",
+        "closedAt": "2026-10-15T20:18:44Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW8R5HQ",
+        "url": "https://github.com/idle-arcade/game/issues/51",
+        "closedAt": "2026-10-16T07:36:34Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7--BA",
+        "url": "https://github.com/idle-arcade/game/issues/46",
+        "closedAt": "2026-10-16T19:51:26Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7_A1A",
+        "url": "https://github.com/idle-arcade/game/issues/48",
+        "closedAt": "2026-10-17T19:33:51Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7-_Yg",
+        "url": "https://github.com/idle-arcade/game/issues/47",
+        "closedAt": "2026-10-17T19:39:21Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7e25A",
+        "url": "https://github.com/idle-arcade/game/issues/41",
+        "closedAt": "2026-10-17T19:40:41Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWePxcA",
+        "url": "https://github.com/idle-arcade/game/issues/36",
+        "closedAt": "2026-10-17T19:45:45Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcmlKA",
+        "url": "https://github.com/idle-arcade/game/issues/22",
+        "closedAt": "2026-10-18T14:16:49Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7e3jA",
+        "url": "https://github.com/idle-arcade/game/issues/42",
+        "closedAt": "2026-10-18T17:06:17Z",
+        "week": "2026-10-12"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYRdWeQ",
+        "url": "https://github.com/idle-arcade/game/issues/62",
+        "closedAt": "2026-10-19T12:30:53Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYRdZyw",
+        "url": "https://github.com/idle-arcade/game/issues/63",
+        "closedAt": "2026-10-19T12:30:56Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYRdc4g",
+        "url": "https://github.com/idle-arcade/game/issues/64",
+        "closedAt": "2026-10-19T12:31:00Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYRdgTw",
+        "url": "https://github.com/idle-arcade/game/issues/65",
+        "closedAt": "2026-10-19T12:31:03Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYRdjgw",
+        "url": "https://github.com/idle-arcade/game/issues/66",
+        "closedAt": "2026-10-19T12:31:06Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYRdnYQ",
+        "url": "https://github.com/idle-arcade/game/issues/67",
+        "closedAt": "2026-10-19T12:31:10Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7e4Jw",
+        "url": "https://github.com/idle-arcade/game/issues/43",
+        "closedAt": "2026-10-20T06:59:37Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYfTUVg",
+        "url": "https://github.com/idle-arcade/game/issues/68",
+        "closedAt": "2026-10-20T08:49:49Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABW7e44g",
+        "url": "https://github.com/idle-arcade/game/issues/44",
+        "closedAt": "2026-10-20T09:35:07Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhxnmA",
+        "url": "https://github.com/idle-arcade/game/issues/80",
+        "closedAt": "2026-10-20T13:25:31Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYh2Z1A",
+        "url": "https://github.com/idle-arcade/game/issues/82",
+        "closedAt": "2026-10-20T21:42:09Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYh2m8A",
+        "url": "https://github.com/idle-arcade/game/issues/83",
+        "closedAt": "2026-10-20T21:43:40Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhrWYg",
+        "url": "https://github.com/idle-arcade/game/issues/78",
+        "closedAt": "2026-10-21T00:07:47Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhrdCA",
+        "url": "https://github.com/idle-arcade/game/issues/79",
+        "closedAt": "2026-10-21T11:16:42Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhq7dg",
+        "url": "https://github.com/idle-arcade/game/issues/77",
+        "closedAt": "2026-10-21T11:18:53Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcnQ2w",
+        "url": "https://github.com/idle-arcade/game/issues/28",
+        "closedAt": "2026-10-24T17:59:42Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcnPmg",
+        "url": "https://github.com/idle-arcade/game/issues/27",
+        "closedAt": "2026-10-24T17:59:43Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcnbFg",
+        "url": "https://github.com/idle-arcade/game/issues/31",
+        "closedAt": "2026-10-24T18:02:13Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcnZwQ",
+        "url": "https://github.com/idle-arcade/game/issues/30",
+        "closedAt": "2026-10-24T18:02:49Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYiCN7Q",
+        "url": "https://github.com/idle-arcade/game/issues/84",
+        "closedAt": "2026-10-24T18:03:14Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhjX0Q",
+        "url": "https://github.com/idle-arcade/game/issues/71",
+        "closedAt": "2026-10-25T14:32:39Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYiClzA",
+        "url": "https://github.com/idle-arcade/game/issues/85",
+        "closedAt": "2026-10-25T16:53:48Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhjhpA",
+        "url": "https://github.com/idle-arcade/game/issues/72",
+        "closedAt": "2026-10-25T17:29:15Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhjt1w",
+        "url": "https://github.com/idle-arcade/game/issues/73",
+        "closedAt": "2026-10-25T18:13:20Z",
+        "week": "2026-10-19"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhj6cw",
+        "url": "https://github.com/idle-arcade/game/issues/74",
+        "closedAt": "2026-10-26T09:42:52Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhkMTQ",
+        "url": "https://github.com/idle-arcade/game/issues/76",
+        "closedAt": "2026-10-27T07:38:04Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABYhkFpQ",
+        "url": "https://github.com/idle-arcade/game/issues/75",
+        "closedAt": "2026-10-27T07:51:40Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaOpfRg",
+        "url": "https://github.com/idle-arcade/game/issues/112",
+        "closedAt": "2026-10-27T07:56:13Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWDO6Q",
+        "url": "https://github.com/idle-arcade/game/issues/124",
+        "closedAt": "2026-10-27T16:17:02Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaPtEyw",
+        "url": "https://github.com/idle-arcade/game/issues/117",
+        "closedAt": "2026-10-27T19:58:12Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWBPpw",
+        "url": "https://github.com/idle-arcade/game/issues/121",
+        "closedAt": "2026-10-29T09:21:02Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaOlQSw",
+        "url": "https://github.com/idle-arcade/game/issues/110",
+        "closedAt": "2026-10-31T13:33:34Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaO0PSA",
+        "url": "https://github.com/idle-arcade/game/issues/114",
+        "closedAt": "2026-10-31T13:35:39Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaOlgog",
+        "url": "https://github.com/idle-arcade/game/issues/111",
+        "closedAt": "2026-10-31T13:40:19Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaO0oHQ",
+        "url": "https://github.com/idle-arcade/game/issues/115",
+        "closedAt": "2026-10-31T13:41:06Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaPtSEQ",
+        "url": "https://github.com/idle-arcade/game/issues/118",
+        "closedAt": "2026-10-31T13:41:21Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABZ0iBQw",
+        "url": "https://github.com/idle-arcade/game/issues/101",
+        "closedAt": "2026-10-31T13:44:06Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWCfSw",
+        "url": "https://github.com/idle-arcade/game/issues/123",
+        "closedAt": "2026-10-31T13:46:24Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABbbXYKQ",
+        "url": "https://github.com/idle-arcade/game/issues/135",
+        "closedAt": "2026-10-31T14:40:33Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABZz13Fg",
+        "url": "https://github.com/idle-arcade/game/issues/94",
+        "closedAt": "2026-10-31T15:13:08Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWE2kw",
+        "url": "https://github.com/idle-arcade/game/issues/127",
+        "closedAt": "2026-11-01T18:16:04Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcnENg",
+        "url": "https://github.com/idle-arcade/game/issues/24",
+        "closedAt": "2026-11-01T18:24:01Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABWcnFbQ",
+        "url": "https://github.com/idle-arcade/game/issues/25",
+        "closedAt": "2026-11-01T19:30:57Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWD2Og",
+        "url": "https://github.com/idle-arcade/game/issues/125",
+        "closedAt": "2026-11-01T19:32:08Z",
+        "week": "2026-10-26"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWB-FA",
+        "url": "https://github.com/idle-arcade/game/issues/122",
+        "closedAt": "2026-11-02T13:08:13Z",
+        "week": "2026-11-02"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaWEXUQ",
+        "url": "https://github.com/idle-arcade/game/issues/126",
+        "closedAt": "2026-11-03T07:39:24Z",
+        "week": "2026-11-02"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABcFub4w",
+        "url": "https://github.com/idle-arcade/game/issues/147",
+        "closedAt": "2026-11-03T17:13:57Z",
+        "week": "2026-11-02"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABaagEng",
+        "url": "https://github.com/idle-arcade/game/issues/131",
+        "closedAt": "2026-11-03T17:31:43Z",
+        "week": "2026-11-02"
+      }
+    ]
+  }
+}
