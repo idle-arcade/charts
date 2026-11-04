@@ -58,6 +58,32 @@ export function effortInsights(result: Result, config: Config) {
   };
 }
 
+// Report weeks run Tuesday–Monday; KW is the ISO calendar week containing that Tuesday.
+export function reportingWeekStart(timestamp: string): string {
+  const date = new Date(timestamp);
+  if (!Number.isFinite(date.valueOf()))
+    throw new Error(`Invalid report date: ${timestamp}`);
+  const localDate = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Europe/Berlin',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(date);
+  const tuesday = new Date(`${localDate}T00:00:00Z`);
+  tuesday.setUTCDate(tuesday.getUTCDate() - ((tuesday.getUTCDay() + 5) % 7));
+  return tuesday.toISOString().slice(0, 10);
+}
+
+export function calendarWeekLabel(weekStart: string): string {
+  const thursday = new Date(`${weekStart}T00:00:00Z`);
+  thursday.setUTCDate(thursday.getUTCDate() + 4 - (thursday.getUTCDay() || 7));
+  const year = thursday.getUTCFullYear();
+  const week = Math.ceil(
+    ((thursday.valueOf() - Date.UTC(year, 0, 1)) / 86400000 + 1) / 7,
+  );
+  return `'${String(year).slice(-2)} KW${String(week).padStart(2, '0')}`;
+}
+
 // Use GitHub's actual latest closing timestamp, never a history inferred from saved reports.
 export function weeklyCompletions(snapshot: Snapshot, sprintId?: string) {
   const parents = new Set(
@@ -84,22 +110,11 @@ export function weeklyCompletions(snapshot: Snapshot, sprintId?: string) {
       !issue.closedAt
     )
       continue;
-    const timestamp = new Date(issue.closedAt);
-    if (!Number.isFinite(timestamp.valueOf()))
-      throw new Error(`Invalid GitHub closing date: ${issue.url}`);
-    const localDate = new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Europe/Berlin',
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-    }).format(timestamp);
-    const monday = new Date(`${localDate}T00:00:00Z`);
-    monday.setUTCDate(monday.getUTCDate() - ((monday.getUTCDay() + 6) % 7));
     issues.push({
       id: issue.id,
       url: issue.url,
       closedAt: issue.closedAt,
-      week: monday.toISOString().slice(0, 10),
+      week: reportingWeekStart(issue.closedAt),
     });
   }
   issues.sort(
@@ -108,26 +123,27 @@ export function weeklyCompletions(snapshot: Snapshot, sprintId?: string) {
   const counts = new Map<string, number>();
   for (const issue of issues)
     counts.set(issue.week, (counts.get(issue.week) ?? 0) + 1);
-  const weeks: { week: string; count: number }[] = [];
+  const weeks: { week: string; label: string; count: number }[] = [];
   if (issues.length) {
     const first = new Date(`${issues[0].week}T00:00:00Z`);
-    const cutoffDate = new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Europe/Berlin',
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-    }).format(new Date(snapshot.fetchedAt));
-    const last = new Date(`${cutoffDate}T00:00:00Z`);
+    const last = new Date(
+      `${reportingWeekStart(snapshot.fetchedAt)}T00:00:00Z`,
+    );
     for (
       const date = first;
       date <= last;
       date.setUTCDate(date.getUTCDate() + 7)
     ) {
       const week = date.toISOString().slice(0, 10);
-      weeks.push({ week, count: counts.get(week) ?? 0 });
+      weeks.push({
+        week,
+        label: calendarWeekLabel(week),
+        count: counts.get(week) ?? 0,
+      });
     }
   }
   return {
+    weekStartsOn: 'Tuesday',
     timezone: 'Europe/Berlin',
     definition:
       'Currently completed leaf issues on the current board, grouped by their latest GitHub closing timestamp. Each issue counts once. This does not reconstruct former board membership or count repeated completion events.',

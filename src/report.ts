@@ -9,7 +9,11 @@ import {
 } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { account } from './accounting.ts';
-import { effortInsights, weeklyCompletions } from './insights.ts';
+import {
+  effortInsights,
+  weeklyCompletions,
+  reportingWeekStart,
+} from './insights.ts';
 import { renderCharts } from './render.ts';
 import type { Config, Result, Snapshot } from './types.ts';
 
@@ -58,7 +62,11 @@ export async function publish(
     const previous = JSON.parse(
       await readFile(join(destination, 'snapshot.json'), 'utf8'),
     ) as Snapshot;
-    if (semanticSnapshot(previous) === semanticSnapshot(snapshot))
+    if (
+      semanticSnapshot(previous) === semanticSnapshot(snapshot) &&
+      reportingWeekStart(previous.fetchedAt) ===
+        reportingWeekStart(snapshot.fetchedAt)
+    )
       snapshot = previous;
   } catch (error) {
     if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
@@ -151,7 +159,7 @@ export async function publish(
         '## Effort flow\n\n![Person to discipline to use case](charts/effort-flow.svg)\n\nEach stage represents the same recorded hours. Links aggregate adjacent categories.',
       );
     sections.push(
-      '## Completed leaf issues by closing week\n\n![Completed leaf issues](charts/completed-by-week.svg)\n\nCounts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks start Monday in Europe/Berlin; the current week may be partial.',
+      '## Completed leaf issues by week\n\n![Completed leaf issues](charts/completed-by-week.svg)\n\nCounts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks run Tuesday–Monday in Europe/Berlin and use the ISO calendar-week number of their starting Tuesday; the current week may be partial.',
     );
     sections.push(
       `## Native burn-up\n\n[View the GitHub-provided historical burn-up](https://github.com/orgs/${config.owner}/projects/${config.project}/insights). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.\n\n[Repository maps and Gource trial](../../repository/README.md)`,

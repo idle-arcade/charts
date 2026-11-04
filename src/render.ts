@@ -384,8 +384,8 @@ export async function renderCharts(
     'completed-by-week',
     {
       title: {
-        text: 'Completed leaf issues · by closing week',
-        subtext: `${scope} · current board · latest GitHub completion date · Berlin weeks\nIncludes completed leaf issues regardless of recorded hours; current week may be partial.`,
+        text: 'Completed leaf issues · by week',
+        subtext: `${scope} · current board · latest GitHub completion date\nIncludes completed leaf issues regardless of recorded hours; current week may be partial.`,
         left: 38,
         top: 28,
         textStyle: { fontSize: 25, color: '#0f172a' },
@@ -394,10 +394,9 @@ export async function renderCharts(
       grid: { left: 85, right: 55, top: 165, bottom: 80 },
       xAxis: {
         type: 'category',
-        data: completions.weeks.map((row) => row.week),
-        name: 'Week starting Monday',
-        nameLocation: 'middle',
-        nameGap: 40,
+        data: completions.weeks.map((row, index) =>
+          index === completions.weeks.length - 1 ? 'Current Week' : row.label,
+        ),
         axisLabel: {
           interval: 0,
           rotate: completions.weeks.length > 8 ? 30 : 0,

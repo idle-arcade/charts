@@ -64,6 +64,20 @@ test('renders SVG/PNG, preserves unchanged bytes and the last valid report on re
       publish(source, config, destination, 'unknown'),
       /Unknown sprint/,
     );
+    await publish(
+      {
+        ...source,
+        fetchedAt: '2026-11-03T12:00:00Z',
+        fetchCompletedAt: '2026-11-03T12:00:01Z',
+      },
+      config,
+      destination,
+    );
+    assert.equal(
+      JSON.parse(await readFile(join(destination, 'snapshot.json'), 'utf8'))
+        .fetchedAt,
+      '2026-11-03T12:00:00Z',
+    );
   } finally {
     await rm(root, { recursive: true, force: true });
   }
