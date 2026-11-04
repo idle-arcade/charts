@@ -18,10 +18,6 @@ on:
         description: Optional Sprint iteration ID (empty = all project effort)
         type: string
 
-      gource_preview:
-        description: Generate experimental Gource still (no video)
-        type: boolean
-        default: false
       source_ref:
         description: Game repository branch, tag, or commit for the repository maps
         type: string
@@ -86,13 +82,6 @@ jobs:
             ':(glob)**/*.png' ':(glob)**/*.jpg' ':(glob)**/*.jpeg' ':(glob)**/*.gif' \
             ':(glob)**/*.ico' ':(glob)**/*.webp' ':(glob)**/*.woff*' ':(glob)**/*.ttf' \
             ':(glob)**/*.drawio' ':(glob)**/*.excalidraw' ':(glob)**/*.pdf' ':(glob)**/*.mp4' ':(glob)**/*.mp3'
-      - name: Render Repo Visualizer map
-        uses: githubocto/repo-visualizer@a999615bdab757559bf94bda1fe6eef232765f85
-        with:
-          root_path: .work/idle-arcade
-          output_file: reports/repository/repo-visualizer.svg
-          excluded_paths: .git,node_modules,dist,build,out,.next,package-lock.json,yarn.lock,pnpm-lock.yaml
-          should_push: false
       - name: Render Repocarto map
         uses: aurelio-nakamura/repocarto@b1a8d6de32d9ef2e32c538be320e4588c7630212
         with:
@@ -104,10 +93,8 @@ jobs:
           version: '0.1.2'
           commit: 'false'
       - name: Install Gource rendering dependencies
-        if: inputs.gource_preview == true
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends gource xvfb xauth ffmpeg libgl1-mesa-dri
-      - name: Capture experimental Gource still
-        if: inputs.gource_preview == true
+      - name: Capture Gource still
         run: bash scripts/gource-still.sh .work/game reports/repository
       - name: Publish repository image metadata and PNG copies
         run: node scripts/repository-report.ts .work/game
