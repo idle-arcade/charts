@@ -2,6 +2,7 @@ import { execFileSync } from 'node:child_process';
 import { mkdir, writeFile, readFile } from 'node:fs/promises';
 import { resolve, join } from 'node:path';
 import sharp from 'sharp';
+import { normalizeRepositorySvg } from '../src/repository-svg.ts';
 
 const source = process.argv[2] ?? '.work/game';
 const destination = resolve('reports/repository');
@@ -22,8 +23,9 @@ if (!visualizerSvg.includes('data-export-frame')) {
     /(<svg[^>]*>)/,
     '$1<rect x="-20" y="-20" width="1220" height="1040" fill="white"/>',
   );
-  await writeFile(visualizerPath, visualizerSvg);
 }
+visualizerSvg = normalizeRepositorySvg(visualizerSvg);
+await writeFile(visualizerPath, visualizerSvg);
 for (const name of ['repo-visualizer', 'repocarto']) {
   await sharp(await readFile(join(destination, `${name}.svg`)), {
     density: 144,
