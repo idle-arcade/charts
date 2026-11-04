@@ -74,3 +74,14 @@ test('weekly completion uses actual final closures and Berlin Monday boundaries,
   assert.ok(result.weeks.some((row) => row.count === 0));
   assert.equal(weeklyCompletions(snapshot([a]), 'another').issues.length, 0);
 });
+
+test('includes the current Berlin week when Monday has begun before UTC Monday', () => {
+  const record = item('boundary');
+  record.issue!.stateReason = 'COMPLETED';
+  record.issue!.closedAt = '2026-10-11T22:30:00Z';
+  const source = snapshot([record]);
+  source.fetchedAt = '2026-10-11T23:00:00Z';
+  assert.deepEqual(weeklyCompletions(source).weeks, [
+    { week: '2026-10-12', count: 1 },
+  ]);
+});

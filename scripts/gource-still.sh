@@ -10,8 +10,8 @@ LIBGL_ALWAYS_SOFTWARE=1 xvfb-run -a -s '-screen 0 2560x1440x24' \
   gource "$source_dir" --viewport 2560x1440 --seconds-per-day 0.15 \
   --auto-skip-seconds 0.1 --max-file-lag 0.05 --file-idle-time 0 \
   --file-idle-time-at-end 0 --stop-at-end --camera-mode overview \
-  --hide users,usernames,mouse,progress,date,filenames --dir-name-depth 3 \
-  --font-size 22 --dir-font-size 20 --key --background-colour 0f172a \
+  --hide users,usernames,mouse,progress,date,filenames --dir-name-depth 3 --highlight-dirs \
+  --font-size 22 --dir-font-size 23 --dir-colour e2e8f0 --key --background-colour 0f172a \
   --title "IDLE Arcade | ${source_sha:0:8}" \
   --file-filter '(^|/)(node_modules|dist|build|\.git)/|(^|/)(package-lock\.json|yarn\.lock|pnpm-lock\.yaml)$' \
   --output-framerate 25 --output-ppm-stream - \

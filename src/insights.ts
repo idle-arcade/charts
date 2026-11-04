@@ -111,7 +111,13 @@ export function weeklyCompletions(snapshot: Snapshot, sprintId?: string) {
   const weeks: { week: string; count: number }[] = [];
   if (issues.length) {
     const first = new Date(`${issues[0].week}T00:00:00Z`);
-    const last = new Date(snapshot.fetchedAt);
+    const cutoffDate = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Europe/Berlin',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    }).format(new Date(snapshot.fetchedAt));
+    const last = new Date(`${cutoffDate}T00:00:00Z`);
     for (
       const date = first;
       date <= last;

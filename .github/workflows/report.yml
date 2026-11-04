@@ -85,7 +85,7 @@ jobs:
             ':(glob)**/node_modules/**' ':(glob)**/dist/**' ':(glob)**/build/**' \
             ':(glob)**/*.png' ':(glob)**/*.jpg' ':(glob)**/*.jpeg' ':(glob)**/*.gif' \
             ':(glob)**/*.ico' ':(glob)**/*.webp' ':(glob)**/*.woff*' ':(glob)**/*.ttf' \
-            ':(glob)**/*.pdf' ':(glob)**/*.mp4' ':(glob)**/*.mp3'
+            ':(glob)**/*.drawio' ':(glob)**/*.excalidraw' ':(glob)**/*.pdf' ':(glob)**/*.mp4' ':(glob)**/*.mp3'
       - name: Render Repo Visualizer map
         uses: githubocto/repo-visualizer@a999615bdab757559bf94bda1fe6eef232765f85
         with:
