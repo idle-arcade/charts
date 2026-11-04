@@ -73,11 +73,11 @@ Source: [IDLE Arcade](https://github.com/orgs/idle-arcade/projects/1). Snapshot 
 
 Each stage represents the same recorded hours. Links aggregate adjacent categories.
 
-## Completed leaf issues by closing week
+## Completed leaf issues by week
 
 ![Completed leaf issues](charts/completed-by-week.svg)
 
-Counts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks start Monday in Europe/Berlin; the current week may be partial.
+Counts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks run Tuesday–Monday in Europe/Berlin and use the ISO calendar-week number of their starting Tuesday; the current week may be partial.
 
 ## Native burn-up
 
