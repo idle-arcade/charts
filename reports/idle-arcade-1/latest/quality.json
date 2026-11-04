@@ -11,112 +11,10 @@
       "message": "Skipping parent total; only leaf issue hours count."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__oag",
-      "url": "https://github.com/idle-arcade/game/issues/4",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__obQ",
-      "url": "https://github.com/idle-arcade/game/issues/5",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__oC4",
-      "url": "https://github.com/idle-arcade/game/issues/2",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__oMI",
-      "url": "https://github.com/idle-arcade/game/issues/3",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__orQ",
-      "url": "https://github.com/idle-arcade/game/issues/6",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__osI",
-      "url": "https://github.com/idle-arcade/game/issues/7",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__q0c",
-      "url": "https://github.com/idle-arcade/game/issues/15",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__q9I",
-      "url": "https://github.com/idle-arcade/game/issues/16",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qcI",
-      "url": "https://github.com/idle-arcade/game/issues/10",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qds",
-      "url": "https://github.com/idle-arcade/game/issues/11",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qfk",
-      "url": "https://github.com/idle-arcade/game/issues/12",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qG4",
       "url": "https://github.com/idle-arcade/game/issues/8",
       "code": "parent-rollup",
       "message": "Skipping parent total; only leaf issue hours count."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qho",
-      "url": "https://github.com/idle-arcade/game/issues/13",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qjw",
-      "url": "https://github.com/idle-arcade/game/issues/14",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__qVM",
-      "url": "https://github.com/idle-arcade/game/issues/9",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__rEw",
-      "url": "https://github.com/idle-arcade/game/issues/17",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__rPI",
-      "url": "https://github.com/idle-arcade/game/issues/18",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__tDQ",
-      "url": "https://github.com/idle-arcade/game/issues/19",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__trc",
@@ -161,12 +59,6 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__uVE",
-      "url": "https://github.com/idle-arcade/game/issues/33",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__uVg",
       "url": "https://github.com/idle-arcade/game/issues/34",
       "code": "invalid-hours",
@@ -177,12 +69,6 @@
       "url": "https://github.com/idle-arcade/game/issues/34",
       "code": "invalid-assignee",
       "message": "Expected exactly one assignee; found 0. Skipping issue."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__uVg",
-      "url": "https://github.com/idle-arcade/game/issues/34",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhAe79w",
@@ -263,12 +149,6 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabqQ",
-      "url": "https://github.com/idle-arcade/game/issues/103",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabrM",
       "url": "https://github.com/idle-arcade/game/issues/104",
       "code": "invalid-hours",
@@ -279,12 +159,6 @@
       "url": "https://github.com/idle-arcade/game/issues/104",
       "code": "invalid-assignee",
       "message": "Expected exactly one assignee; found 0. Skipping issue."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabrM",
-      "url": "https://github.com/idle-arcade/game/issues/104",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabsk",
@@ -299,12 +173,6 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabsk",
-      "url": "https://github.com/idle-arcade/game/issues/105",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabtA",
       "url": "https://github.com/idle-arcade/game/issues/106",
       "code": "invalid-hours",
@@ -315,12 +183,6 @@
       "url": "https://github.com/idle-arcade/game/issues/106",
       "code": "invalid-assignee",
       "message": "Expected exactly one assignee; found 0. Skipping issue."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabtA",
-      "url": "https://github.com/idle-arcade/game/issues/106",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabuk",
@@ -335,12 +197,6 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabuk",
-      "url": "https://github.com/idle-arcade/game/issues/107",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabvE",
       "url": "https://github.com/idle-arcade/game/issues/108",
       "code": "invalid-hours",
@@ -351,12 +207,6 @@
       "url": "https://github.com/idle-arcade/game/issues/108",
       "code": "invalid-assignee",
       "message": "Expected exactly one assignee; found 0. Skipping issue."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhDabvE",
-      "url": "https://github.com/idle-arcade/game/issues/108",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhDaL2k",
@@ -467,12 +317,6 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpJdk",
-      "url": "https://github.com/idle-arcade/game/issues/151",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpJKw",
       "url": "https://github.com/idle-arcade/game/issues/150",
       "code": "invalid-hours",
@@ -483,12 +327,6 @@
       "url": "https://github.com/idle-arcade/game/issues/150",
       "code": "invalid-assignee",
       "message": "Expected exactly one assignee; found 0. Skipping issue."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpJKw",
-      "url": "https://github.com/idle-arcade/game/issues/150",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpJs4",
@@ -503,12 +341,6 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpJs4",
-      "url": "https://github.com/idle-arcade/game/issues/152",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpKWg",
       "url": "https://github.com/idle-arcade/game/issues/153",
       "code": "invalid-hours",
@@ -519,12 +351,6 @@
       "url": "https://github.com/idle-arcade/game/issues/153",
       "code": "invalid-assignee",
       "message": "Expected exactly one assignee; found 0. Skipping issue."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpKWg",
-      "url": "https://github.com/idle-arcade/game/issues/153",
-      "code": "missing-sprint",
-      "message": "No Sprint; valid effort remains in overall totals and the Unassigned sprint group."
     }
   ]
 }

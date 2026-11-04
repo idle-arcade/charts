@@ -16,7 +16,7 @@
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(406 508)" fill="#54555a">Sprint 2</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(620 508)" fill="#54555a">Sprint 3</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(834 508)" fill="#54555a">Sprint 4</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(1048 508)" fill="#54555a">Unassigned</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(1048 508)" fill="#54555a">No sprint</text>
 <path d="M159.5 500l65 0l0 -90.7l-65 0Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
 <path d="M373.5 500l65 0l0 -82.5l-65 0Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-1"></path>
 <path d="M587.5 500l65 0l0 -41.2l-65 0Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="chart-id-1"></path>

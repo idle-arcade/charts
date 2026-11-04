@@ -74,7 +74,6 @@ The views describe the same hours and must not be added together. Every dimensio
 125 board items fetched (0 archived); 82 valid leaf issues included in this scope.
 
 - parent-rollup: 23
-- missing-sprint: 29
 - invalid-hours: 19
 - invalid-assignee: 16
 
