@@ -162,7 +162,7 @@ export async function publish(
       '## Completed leaf issues by week\n\n![Completed leaf issues](charts/completed-by-week.svg)\n\nCounts currently completed leaf issues on the current board by their latest GitHub closing date, including issues without recorded hours. Not-planned closures and parents are excluded. Each issue counts once; reopened issues are absent until completed again, then move to their latest closing week. This is a current-cohort completion distribution, not a reconstruction of historical board scope. Weeks run Tuesday–Monday in Europe/Berlin and use the ISO calendar-week number of their starting Tuesday; the current week may be partial.',
     );
     sections.push(
-      `## Native burn-up\n\n[View the GitHub-provided historical burn-up](https://github.com/orgs/${config.owner}/projects/${config.project}/insights). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.\n\n[Repository maps and Gource trial](../../repository/README.md)`,
+      `## Native burn-up\n\n[View the GitHub-provided historical burn-up](https://github.com/orgs/${config.owner}/projects/${config.project}/insights?period=max). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.\n\n[Repository maps and Gource trial](../../repository/README.md)`,
     );
     const qualityCounts = new Map<string, number>();
     for (const diagnostic of result.diagnostics)

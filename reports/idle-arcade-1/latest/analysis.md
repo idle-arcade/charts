@@ -81,7 +81,7 @@ Counts currently completed leaf issues on the current board by their latest GitH
 
 ## Native burn-up
 
-[View the GitHub-provided historical burn-up](https://github.com/orgs/idle-arcade/projects/1/insights). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.
+[View the GitHub-provided historical burn-up](https://github.com/orgs/idle-arcade/projects/1/insights?period=max). No local story-history snapshots or reconstructed burn-up are used. GitHub Insights has its own scope rules, including exclusion of archived/deleted items.
 
 [Repository maps and Gource trial](../../repository/README.md)
 
