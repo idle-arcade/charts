@@ -1,0 +1,91 @@
+<svg role="img" aria-label="By use case: 100 included hours. All project effort. IDLE Arcade · Effort report
+All project effort · snapshot 2026-11-04 · 82 included issues" width="1200" height="640" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1200 640">
+<rect width="1200" height="640" x="0" y="0" fill="#f8fafc"></rect>
+<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans;font-weight:700;" xml:space="preserve" y="14" transform="translate(1089.44 34)" fill="#4f46e5">100 h</text>
+<path d="M300.5 155L300.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M403.5 155L403.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M507.5 155L507.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M610.5 155L610.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M714.5 155L714.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M818.5 155L818.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M921.5 155L921.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M1025.5 155L1025.5 575" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(662.5 609)" fill="#334155">Recorded effort (hours)</text>
+<path d="M-118.7 -9.5l118.7 0l0 19l-118.7 0Z" transform="translate(282 185)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(282 185)" fill="#54555a">Project preparation</text>
+<path d="M-101.5 -9.5l101.5 0l0 19l-101.5 0Z" transform="translate(282 245)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(282 245)" fill="#54555a">Application shell</text>
+<path d="M-62.3 -9.5l62.3 0l0 19l-62.3 0Z" transform="translate(282 305)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 305)" fill="#54555a">Telemetry</text>
+<path d="M-33.5 -9.5l33.5 0l0 19l-33.5 0Z" transform="translate(282 365)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 365)" fill="#54555a">Darts</text>
+<path d="M-70.1 -9.5l70.1 0l0 19l-70.1 0Z" transform="translate(282 425)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 425)" fill="#54555a">Highscores</text>
+<path d="M-67.8 -9.5l67.8 0l0 19l-67.8 0Z" transform="translate(282 485)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 485)" fill="#54555a">Currencies</text>
+<path d="M-66.4 -9.5l66.4 0l0 19l-66.4 0Z" transform="translate(282 545)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 545)" fill="#54555a">Navigation</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(300 583)" fill="#54555a">0</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(403.5714 583)" fill="#54555a">10</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(507.1429 583)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(610.7143 583)" fill="#54555a">30</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(714.2857 583)" fill="#54555a">40</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(817.8571 583)" fill="#54555a">50</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(921.4286 583)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(1025 583)" fill="#54555a">70</text>
+<path d="M300 171.5L987.9 171.5A6 6 0 0 1 993.9 177.5L993.9 192.5A6 6 0 0 1 987.9 198.5L300 198.5L300 171.5Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
+<path d="M300 231.5L459.7 231.5A6 6 0 0 1 465.7 237.5L465.7 252.5A6 6 0 0 1 459.7 258.5L300 258.5L300 231.5Z" fill="#06b6d4" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-2"></path>
+<path d="M300 291.5L366.5 291.5A6 6 0 0 1 372.5 297.5L372.5 312.5A6 6 0 0 1 366.5 318.5L300 318.5L300 291.5Z" fill="#3b82f6" ecmeta_series_index="0" ecmeta_data_index="2" ecmeta_ssr_type="chart" class="chart-id-3"></path>
+<path d="M300 351.5L325.1 351.5A6 6 0 0 1 331.1 357.5L331.1 372.5A6 6 0 0 1 325.1 378.5L300 378.5L300 351.5Z" fill="#f59e0b" ecmeta_series_index="0" ecmeta_data_index="3" ecmeta_ssr_type="chart" class="chart-id-4"></path>
+<path d="M300 411.5L325.1 411.5A6 6 0 0 1 331.1 417.5L331.1 432.5A6 6 0 0 1 325.1 438.5L300 438.5L300 411.5Z" fill="#ec4899" ecmeta_series_index="0" ecmeta_data_index="4" ecmeta_ssr_type="chart" class="chart-id-5"></path>
+<path d="M300 471.5L314.7 471.5A6 6 0 0 1 320.7 477.5L320.7 492.5A6 6 0 0 1 314.7 498.5L300 498.5L300 471.5Z" fill="#f97316" ecmeta_series_index="0" ecmeta_data_index="5" ecmeta_ssr_type="chart" class="chart-id-6"></path>
+<path d="M300 531.5L314.7 531.5A6 6 0 0 1 320.7 537.5L320.7 552.5A6 6 0 0 1 314.7 558.5L300 558.5L300 531.5Z" fill="#10b981" ecmeta_series_index="0" ecmeta_data_index="6" ecmeta_ssr_type="chart" class="chart-id-7"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1005.9255 185)" fill="#334155">67 h   ·   67.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(477.7143 245)" fill="#334155">16 h   ·   16.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(384.5 305)" fill="#334155">7 h   ·   7.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(343.0714 365)" fill="#334155">3 h   ·   3.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(343.0714 425)" fill="#334155">3 h   ·   3.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(332.7143 485)" fill="#334155">2 h   ·   2.0%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(332.7143 545)" fill="#334155">2 h   ·   2.0%</text>
+<path d="M-5 -5l372 0l0 92l-372 0Z" transform="translate(43 33)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans, Arial, sans-serif;font-weight:700;" xml:space="preserve" y="14" transform="translate(43 33)" fill="#0f172a">By use case</text>
+<path d="M0 38l362 0l0 44l-362 0Z" transform="translate(43 33)" fill="none" pointer-events="visible" class="chart-id-0"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="49" transform="translate(43 33)" fill="#64748b">IDLE Arcade · Effort report</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="71" transform="translate(43 33)" fill="#64748b">All project effort · snapshot 2026-11-04 · 82 included issues</text>
+<style ><![CDATA[
+.chart-id-0:hover {
+pointer-events:none;
+}
+.chart-id-1:hover {
+cursor:pointer;
+fill:rgba(108,112,255,1);
+}
+.chart-id-2:hover {
+cursor:pointer;
+fill:rgba(6,200,233,1);
+}
+.chart-id-3:hover {
+cursor:pointer;
+fill:rgba(64,143,255,1);
+}
+.chart-id-4:hover {
+cursor:pointer;
+fill:rgba(255,173,12,1);
+}
+.chart-id-5:hover {
+cursor:pointer;
+fill:rgba(255,79,168,1);
+}
+.chart-id-6:hover {
+cursor:pointer;
+fill:rgba(255,126,24,1);
+}
+.chart-id-7:hover {
+cursor:pointer;
+fill:rgba(17,203,141,1);
+}
+
+]]>
+
+</style>
+</svg>

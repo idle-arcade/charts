@@ -1,0 +1,152 @@
+{
+  "totalHours": 99.9997,
+  "scope": "All project effort",
+  "dimensions": {
+    "discipline": [
+      {
+        "category": "requirements",
+        "hours": 30.9997,
+        "issues": 29,
+        "percentage": 30.999792999379
+      },
+      {
+        "category": "implementation",
+        "hours": 22,
+        "issues": 15,
+        "percentage": 22.000066000198
+      },
+      {
+        "category": "infrastructure",
+        "hours": 17,
+        "issues": 8,
+        "percentage": 17.000051000153
+      },
+      {
+        "category": "management",
+        "hours": 15,
+        "issues": 17,
+        "percentage": 15.000045000135001
+      },
+      {
+        "category": "design",
+        "hours": 7,
+        "issues": 4,
+        "percentage": 7.0000210000630005
+      },
+      {
+        "category": "testing",
+        "hours": 6,
+        "issues": 7,
+        "percentage": 6.000018000054
+      },
+      {
+        "category": "configuration",
+        "hours": 1,
+        "issues": 1,
+        "percentage": 1.0000030000089999
+      },
+      {
+        "category": "deployment",
+        "hours": 1,
+        "issues": 1,
+        "percentage": 1.0000030000089999
+      }
+    ],
+    "phase": [
+      {
+        "category": "inception",
+        "hours": 9.9997,
+        "issues": 17,
+        "percentage": 9.999729999189997
+      },
+      {
+        "category": "elaboration",
+        "hours": 90,
+        "issues": 65,
+        "percentage": 90.00027000081
+      }
+    ],
+    "usecase": [
+      {
+        "category": "project-preparation",
+        "hours": 66.9997,
+        "issues": 60,
+        "percentage": 66.999900999703
+      },
+      {
+        "category": "application-shell",
+        "hours": 16,
+        "issues": 8,
+        "percentage": 16.000048000143998
+      },
+      {
+        "category": "telemetry",
+        "hours": 7,
+        "issues": 3,
+        "percentage": 7.0000210000630005
+      },
+      {
+        "category": "darts",
+        "hours": 3,
+        "issues": 2,
+        "percentage": 3.000009000027
+      },
+      {
+        "category": "highscores",
+        "hours": 3,
+        "issues": 4,
+        "percentage": 3.000009000027
+      },
+      {
+        "category": "currencies",
+        "hours": 2,
+        "issues": 3,
+        "percentage": 2.0000060000179998
+      },
+      {
+        "category": "navigation",
+        "hours": 2,
+        "issues": 2,
+        "percentage": 2.0000060000179998
+      }
+    ],
+    "person": [
+      {
+        "category": "Crafter-Y",
+        "hours": 56.1666,
+        "issues": 37,
+        "percentage": 56.166768500305494
+      },
+      {
+        "category": "Kvrmaa",
+        "hours": 13.166599999999999,
+        "issues": 13,
+        "percentage": 13.166639499918498
+      },
+      {
+        "category": "Yawor1",
+        "hours": 10.166599999999999,
+        "issues": 11,
+        "percentage": 10.166630499891498
+      },
+      {
+        "category": "1lxlos",
+        "hours": 9.8333,
+        "issues": 10,
+        "percentage": 9.8333294999885
+      },
+      {
+        "category": "Saline1",
+        "hours": 6.8332999999999995,
+        "issues": 6,
+        "percentage": 6.833320499961499
+      },
+      {
+        "category": "DevDukeKTM",
+        "hours": 3.8333,
+        "issues": 5,
+        "percentage": 3.8333114999344997
+      }
+    ]
+  }
+}

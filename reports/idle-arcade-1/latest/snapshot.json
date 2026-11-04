@@ -1,0 +1,3929 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-11-04T19:56:52.014Z",
+  "fetchCompletedAt": "2026-11-04T19:56:55.190Z",
+  "project": {
+    "id": "PVT_kwDOFDcUrs4Bmjpg",
+    "title": "IDLE Arcade",
+    "url": "https://github.com/orgs/idle-arcade/projects/1",
+    "owner": "idle-arcade",
+    "number": 1
+  },
+  "fields": {
+    "hours": "Actual Hours",
+    "sprint": "Sprint"
+  },
+  "iterations": [
+    {
+      "id": "ddec76af",
+      "title": "Sprint 1",
+      "startDate": "2026-10-13",
+      "duration": 7
+    },
+    {
+      "id": "5e86c878",
+      "title": "Sprint 2",
+      "startDate": "2026-10-20",
+      "duration": 7
+    },
+    {
+      "id": "ee138021",
+      "title": "Sprint 3",
+      "startDate": "2026-10-27",
+      "duration": 7
+    },
+    {
+      "id": "06b7acb8",
+      "title": "Sprint 4",
+      "startDate": "2026-11-03",
+      "duration": 7
+    }
+  ],
+  "items": [
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__nuQ",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "number": 1,
+        "url": "https://github.com/idle-arcade/game/issues/1",
+        "title": "Preparation: agree on project direction and tools (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:01Z",
+        "parentId": null,
+        "subIssueCount": 6,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__oag",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.5,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWchXIw",
+        "number": 4,
+        "url": "https://github.com/idle-arcade/game/issues/4",
+        "title": "Planning meeting participation - Saline1 (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:02Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Saline1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__obQ",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.5,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWchYvQ",
+        "number": 5,
+        "url": "https://github.com/idle-arcade/game/issues/5",
+        "title": "Planning meeting participation - DevDukeKTM (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:03Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "DevDukeKTM",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__oC4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.5,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcg-yw",
+        "number": 2,
+        "url": "https://github.com/idle-arcade/game/issues/2",
+        "title": "Planning meeting participation - Crafter-Y (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:06:57Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__oMI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.5,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWchJHg",
+        "number": 3,
+        "url": "https://github.com/idle-arcade/game/issues/3",
+        "title": "Planning meeting participation - Kvrmaa (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:02Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__orQ",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.5,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWchn1A",
+        "number": 6,
+        "url": "https://github.com/idle-arcade/game/issues/6",
+        "title": "Planning meeting participation - 1lxlos (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:03Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__osI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.5,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWchpJw",
+        "number": 7,
+        "url": "https://github.com/idle-arcade/game/issues/7",
+        "title": "Planning meeting participation - Yawor1 (1 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:07:26Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcglTQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__q0c",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 3,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjl4A",
+        "number": 15,
+        "url": "https://github.com/idle-arcade/game/issues/15",
+        "title": "Preparation: create blog, repository, and project links",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:07Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__q9I",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjwfg",
+        "number": 16,
+        "url": "https://github.com/idle-arcade/game/issues/16",
+        "title": "Preparation: send project links to tutor",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:08Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qcI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjOtA",
+        "number": 10,
+        "url": "https://github.com/idle-arcade/game/issues/10",
+        "title": "Brainstorming participation - Kvrmaa (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:05Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qds",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjQHw",
+        "number": 11,
+        "url": "https://github.com/idle-arcade/game/issues/11",
+        "title": "Brainstorming participation - Saline1 (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:07:37Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Saline1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qfk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjRsw",
+        "number": 12,
+        "url": "https://github.com/idle-arcade/game/issues/12",
+        "title": "Brainstorming participation - DevDukeKTM (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:05Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "DevDukeKTM",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qG4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "number": 8,
+        "url": "https://github.com/idle-arcade/game/issues/8",
+        "title": "Preparation: brainstorm game ideas (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:04Z",
+        "parentId": null,
+        "subIssueCount": 6,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qho",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjTUg",
+        "number": 13,
+        "url": "https://github.com/idle-arcade/game/issues/13",
+        "title": "Brainstorming participation - 1lxlos (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:06Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qjw",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjU1Q",
+        "number": 14,
+        "url": "https://github.com/idle-arcade/game/issues/14",
+        "title": "Brainstorming participation - Yawor1 (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:06Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__qVM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcjICw",
+        "number": 9,
+        "url": "https://github.com/idle-arcade/game/issues/9",
+        "title": "Brainstorming participation - Crafter-Y (8 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:07:30Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWci4IQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__rEw",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcj3NQ",
+        "number": 17,
+        "url": "https://github.com/idle-arcade/game/issues/17",
+        "title": "Preparation: contribute to Discussion #1 - Crafter-Y",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:08Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__rPI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWckDHQ",
+        "number": 18,
+        "url": "https://github.com/idle-arcade/game/issues/18",
+        "title": "Preparation: contribute to Discussion #1 - Kvrmaa",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:09:09Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__t-k",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnFbQ",
+        "number": 25,
+        "url": "https://github.com/idle-arcade/game/issues/25",
+        "title": "Verify locked-room navigation, unlock placeholders, and room-specific highscores",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-01T19:30:57Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmrBA",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:navigation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__t9M",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnENg",
+        "number": 24,
+        "url": "https://github.com/idle-arcade/game/issues/24",
+        "title": "Implement navigation to locked-room placeholders and room-specific highscores",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-01T18:24:01Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmrBA",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:navigation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__tDQ",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0.3333,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcl8yQ",
+        "number": 19,
+        "url": "https://github.com/idle-arcade/game/issues/19",
+        "title": "Preparation: contribute to Discussion #1 - Yawor1",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-11T13:15:24Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:inception",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__tkg",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 5,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcmkAQ",
+        "number": 21,
+        "url": "https://github.com/idle-arcade/game/issues/21",
+        "title": "Set up the game monorepo and application foundation",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-15T19:51:43Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__tmM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcmlKA",
+        "number": 22,
+        "url": "https://github.com/idle-arcade/game/issues/22",
+        "title": "Review US01 setup, entry flow, layout, and modals",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-18T14:16:49Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__trc",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcmrBA",
+        "number": 23,
+        "url": "https://github.com/idle-arcade/game/issues/23",
+        "title": "US02: navigate between arcade rooms",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-01T19:31:09Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:navigation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__tSk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 14,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "number": 20,
+        "url": "https://github.com/idle-arcade/game/issues/20",
+        "title": "US01: enter the arcade and follow onboarding",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-18T17:06:55Z",
+        "parentId": null,
+        "subIssueCount": 6,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uE0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 3,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnM-w",
+        "number": 26,
+        "url": "https://github.com/idle-arcade/game/issues/26",
+        "title": "US03: explore the Darts room interface prototype",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-24T18:12:24Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uG8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnPmg",
+        "number": 27,
+        "url": "https://github.com/idle-arcade/game/issues/27",
+        "title": "Build the Darts room interface prototype",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-24T18:01:26Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcnM-w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uIk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnQ2w",
+        "number": 28,
+        "url": "https://github.com/idle-arcade/game/issues/28",
+        "title": "Review the Darts room prototype and preview states",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-24T17:59:42Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcnM-w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uM8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 3,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnWwg",
+        "number": 29,
+        "url": "https://github.com/idle-arcade/game/issues/29",
+        "title": "US04: open the game highscore dropdown with dummy rankings",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-25T16:56:56Z",
+        "parentId": null,
+        "subIssueCount": 4,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uPc",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnZwQ",
+        "number": 30,
+        "url": "https://github.com/idle-arcade/game/issues/30",
+        "title": "Implement the highscore dropdown with hardcoded rankings and translated heading",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-24T18:02:49Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcnWwg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uQc",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnbFg",
+        "number": 31,
+        "url": "https://github.com/idle-arcade/game/issues/31",
+        "title": "Verify the highscore dropdown, dummy rankings, and game-specific translation",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-24T18:02:13Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcnWwg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uSs",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcndoQ",
+        "number": 32,
+        "url": "https://github.com/idle-arcade/game/issues/32",
+        "title": "US05: use the prototype on mobile and desktop",
+        "state": "OPEN",
+        "updatedAt": "2026-10-13T16:12:15Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:responsive-layout"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uVE",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcngJA",
+        "number": 33,
+        "url": "https://github.com/idle-arcade/game/issues/33",
+        "title": "Adapt entry and arcade prototype layouts for mobile and desktop",
+        "state": "OPEN",
+        "updatedAt": "2026-10-13T16:12:25Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcndoQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:responsive-layout"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4Bmjpgzg__uVg",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWcnhZQ",
+        "number": 34,
+        "url": "https://github.com/idle-arcade/game/issues/34",
+        "title": "Verify entry and arcade prototype at mobile and desktop widths",
+        "state": "OPEN",
+        "updatedAt": "2026-10-13T16:12:26Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcndoQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:responsive-layout"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhABbos",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWePxcA",
+        "number": 36,
+        "url": "https://github.com/idle-arcade/game/issues/36",
+        "title": "Write and publish blog entry #2",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-17T19:45:45Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "DevDukeKTM",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhABZEA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABWeNRvA",
+        "number": 35,
+        "url": "https://github.com/idle-arcade/game/issues/35",
+        "title": "Write and publish blog entry #1",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-13T16:23:52Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW8R09w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe7_g",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 4,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e2Sw",
+        "number": 40,
+        "url": "https://github.com/idle-arcade/game/issues/40",
+        "title": "Worksheet 3: review and refine user stories",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T11:39:41Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe7_Y",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e1pQ",
+        "number": 39,
+        "url": "https://github.com/idle-arcade/game/issues/39",
+        "title": "Worksheet 3: complete and review UI mockups",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-15T14:13:11Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:design",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe79w",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 12,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e02w",
+        "number": 38,
+        "url": "https://github.com/idle-arcade/game/issues/38",
+        "title": "Worksheet 3: SRS, UI mockups, and requirements review",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T09:36:32Z",
+        "parentId": null,
+        "subIssueCount": 7,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe8A4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e4Jw",
+        "number": 43,
+        "url": "https://github.com/idle-arcade/game/issues/43",
+        "title": "Worksheet 3: review and comment on external blog A",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T08:57:56Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe8AI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e25A",
+        "number": 41,
+        "url": "https://github.com/idle-arcade/game/issues/41",
+        "title": "Worksheet 3: create UML use-case diagram",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-17T19:40:41Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe8AU",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e3jA",
+        "number": 42,
+        "url": "https://github.com/idle-arcade/game/issues/42",
+        "title": "Worksheet 3: start SRS section 2 using the Moodle template",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-18T17:06:17Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAe8CM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7e44g",
+        "number": 44,
+        "url": "https://github.com/idle-arcade/game/issues/44",
+        "title": "Worksheet 3: review and comment on external blog B",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T09:35:07Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW7e02w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAf7G0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 7,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW8dQ8A",
+        "number": 52,
+        "url": "https://github.com/idle-arcade/game/issues/52",
+        "title": "US06: Telemetry data and usage statistics",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-21T11:19:56Z",
+        "parentId": null,
+        "subIssueCount": 3,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:telemetry"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfck0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7-8tw",
+        "number": 45,
+        "url": "https://github.com/idle-arcade/game/issues/45",
+        "title": "Implement the login/register screen and logout",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-15T20:18:44Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfcmg",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7--BA",
+        "number": 46,
+        "url": "https://github.com/idle-arcade/game/issues/46",
+        "title": "Build the game layout: header and navigation",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-16T19:51:26Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfcoY",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7-_Yg",
+        "number": 47,
+        "url": "https://github.com/idle-arcade/game/issues/47",
+        "title": "Create the onboarding modal",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-17T19:39:21Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfcqA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW7_A1A",
+        "number": 48,
+        "url": "https://github.com/idle-arcade/game/issues/48",
+        "title": "Create placeholder legal modals: imprint, privacy, and conditions",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-17T19:33:51Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcmP4g",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfwKQ",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 3,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW8R09w",
+        "number": 49,
+        "url": "https://github.com/idle-arcade/game/issues/49",
+        "title": "First Blog entry",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-16T07:37:03Z",
+        "parentId": null,
+        "subIssueCount": 3,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfwMA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW8R3RA",
+        "number": 50,
+        "url": "https://github.com/idle-arcade/game/issues/50",
+        "title": "First blog: review and comment on external blog A",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-13T17:21:09Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW8R09w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhAfwOI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABW8R5HQ",
+        "number": 51,
+        "url": "https://github.com/idle-arcade/game/issues/51",
+        "title": "First blog: review and comment on external blog B",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-16T07:36:34Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW8R09w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB0__E",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdZyw",
+        "number": 63,
+        "url": "https://github.com/idle-arcade/game/issues/63",
+        "title": "Sprint 1 retrospective participation - Kvrmaa (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T12:30:56Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB0_3U",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 6,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "number": 61,
+        "url": "https://github.com/idle-arcade/game/issues/61",
+        "title": "Sprint 1 retrospective and team meeting (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T13:24:12Z",
+        "parentId": null,
+        "subIssueCount": 6,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB0_4w",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdWeQ",
+        "number": 62,
+        "url": "https://github.com/idle-arcade/game/issues/62",
+        "title": "Sprint 1 retrospective participation - Crafter-Y (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T12:30:53Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB1AA8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdc4g",
+        "number": 64,
+        "url": "https://github.com/idle-arcade/game/issues/64",
+        "title": "Sprint 1 retrospective participation - Saline1 (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T12:31:00Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Saline1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB1AEM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdgTw",
+        "number": 65,
+        "url": "https://github.com/idle-arcade/game/issues/65",
+        "title": "Sprint 1 retrospective participation - DevDukeKTM (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T12:31:03Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "DevDukeKTM",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB1AI0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdjgw",
+        "number": 66,
+        "url": "https://github.com/idle-arcade/game/issues/66",
+        "title": "Sprint 1 retrospective participation - 1lxlos (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T12:31:06Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhB1AMM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ddec76af",
+        "title": "Sprint 1",
+        "startDate": "2026-10-13",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYRdnYQ",
+        "number": 67,
+        "url": "https://github.com/idle-arcade/game/issues/67",
+        "title": "Sprint 1 retrospective participation - Yawor1 (19 October)",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-19T12:31:10Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYRdVqw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCDi5k",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYfTUVg",
+        "number": 68,
+        "url": "https://github.com/idle-arcade/game/issues/68",
+        "title": "Bug: npm run dev doesn't seem to run the backend",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T11:27:47Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:configuration",
+          "kind:bug",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGDMM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 11,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhitMg",
+        "number": 70,
+        "url": "https://github.com/idle-arcade/game/issues/70",
+        "title": "Worksheet 4: UML behaviour diagrams, SRS, and blog 3",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T07:57:37Z",
+        "parentId": null,
+        "subIssueCount": 8,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGE2c",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhkFpQ",
+        "number": 75,
+        "url": "https://github.com/idle-arcade/game/issues/75",
+        "title": "Worksheet 4: review and comment on external blog A",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T07:51:40Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGE9E",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhkMTQ",
+        "number": 76,
+        "url": "https://github.com/idle-arcade/game/issues/76",
+        "title": "Worksheet 4: review and comment on external blog B",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T07:38:04Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "DevDukeKTM",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGEDA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhjX0Q",
+        "number": 71,
+        "url": "https://github.com/idle-arcade/game/issues/71",
+        "title": "Worksheet 4: create activity diagrams for at least three use cases",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-25T14:32:39Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGEdE",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhjt1w",
+        "number": 73,
+        "url": "https://github.com/idle-arcade/game/issues/73",
+        "title": "Worksheet 4: integrate behaviour diagrams and complete SRS requirements",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-25T18:13:20Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGEO4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhjhpA",
+        "number": 72,
+        "url": "https://github.com/idle-arcade/game/issues/72",
+        "title": "Worksheet 4: create at least two sequence diagrams",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-25T17:29:15Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Saline1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGEqA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhj6cw",
+        "number": 74,
+        "url": "https://github.com/idle-arcade/game/issues/74",
+        "title": "Write and publish blog entry #3",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T07:50:42Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGl2Y",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYiClzA",
+        "number": 85,
+        "url": "https://github.com/idle-arcade/game/issues/85",
+        "title": "Revise the SRS with the current set of user stories",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-25T16:53:48Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcnWwg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGle4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYiCN7Q",
+        "number": 84,
+        "url": "https://github.com/idle-arcade/game/issues/84",
+        "title": "Add the highscore dropdown to the mockup",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-24T18:03:14Z",
+        "parentId": "I_kwDOVEu-Os8AAAABWcnWwg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:design",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGMQU",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 3,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhq7dg",
+        "number": 77,
+        "url": "https://github.com/idle-arcade/game/issues/77",
+        "title": "Provide telemetry infrastructure for Rybbit and OpenTelemetry",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-21T11:18:53Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW8dQ8A",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:telemetry"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGMqY",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhrWYg",
+        "number": 78,
+        "url": "https://github.com/idle-arcade/game/issues/78",
+        "title": "Integrate Rybbit frontend tracking",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-21T00:07:47Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW8dQ8A",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:telemetry"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGMzw",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhrdCA",
+        "number": 79,
+        "url": "https://github.com/idle-arcade/game/issues/79",
+        "title": "Instrument backend with OpenTelemetry traces and logs; evaluate metrics",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-21T11:16:42Z",
+        "parentId": "I_kwDOVEu-Os8AAAABW8dQ8A",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:telemetry"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGS4A",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYhxnmA",
+        "number": 80,
+        "url": "https://github.com/idle-arcade/game/issues/80",
+        "title": "Worksheet 4: review and refine user stories",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T13:25:31Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGX64",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYh2m8A",
+        "number": 83,
+        "url": "https://github.com/idle-arcade/game/issues/83",
+        "title": "Set up CI to build and deploy the existing Dockerfile",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T21:43:40Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYh11lw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:deployment",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGXJs",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYh11lw",
+        "number": 81,
+        "url": "https://github.com/idle-arcade/game/issues/81",
+        "title": "US07: access a deployed preview of the game",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T21:45:11Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:deployment",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhCGXvM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABYh2Z1A",
+        "number": 82,
+        "url": "https://github.com/idle-arcade/game/issues/82",
+        "title": "Provide infrastructure for the preview service",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-20T21:42:09Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYh11lw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD03uE",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaOzj_w",
+        "number": 113,
+        "url": "https://github.com/idle-arcade/game/issues/113",
+        "title": "US11: run typecheck, lint, and formatting checks in GitHub Actions",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:41:35Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD041E",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaO0oHQ",
+        "number": 115,
+        "url": "https://github.com/idle-arcade/game/issues/115",
+        "title": "Verify and review code-quality checks and native Actions failure reporting",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:41:06Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaOzj_w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD04ac",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaO0PSA",
+        "number": 114,
+        "url": "https://github.com/idle-arcade/game/issues/114",
+        "title": "Implement a GitHub Actions workflow for typecheck, lint, and format:check",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:35:39Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaOzj_w",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD0o-0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaOlgog",
+        "number": 111,
+        "url": "https://github.com/idle-arcade/game/issues/111",
+        "title": "Verify and review Mermaid rendering in the diagram pipeline",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:40:19Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaOkpTw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD0oCk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaOkpTw",
+        "number": 109,
+        "url": "https://github.com/idle-arcade/game/issues/109",
+        "title": "US10: automatically render Mermaid diagrams in the documentation pipeline",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:41:46Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD0orE",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaOlQSw",
+        "number": 110,
+        "url": "https://github.com/idle-arcade/game/issues/110",
+        "title": "Extend the diagram-rendering pipeline to render .mmd files",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:33:35Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaOkpTw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD0tJ0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "5e86c878",
+        "title": "Sprint 2",
+        "startDate": "2026-10-20",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaOpfRg",
+        "number": 112,
+        "url": "https://github.com/idle-arcade/game/issues/112",
+        "title": "Worksheet 4: review and comment on external blog C",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T07:57:01Z",
+        "parentId": "I_kwDOVEu-Os8AAAABYhitMg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Saline1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD106A",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaPtEyw",
+        "number": 117,
+        "url": "https://github.com/idle-arcade/game/issues/117",
+        "title": "Implement Swagger documentation for the native tRPC API",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T19:58:12Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaPpx0A",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD11Hc",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaPtSEQ",
+        "number": 118,
+        "url": "https://github.com/idle-arcade/game/issues/118",
+        "title": "Verify and review Swagger documentation endpoint and generation",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:41:21Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaPpx0A",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD1xG8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 3,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaPpx0A",
+        "number": 116,
+        "url": "https://github.com/idle-arcade/game/issues/116",
+        "title": "US12: browse Swagger documentation for the native tRPC API",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:41:56Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8aEI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWBPpw",
+        "number": 121,
+        "url": "https://github.com/idle-arcade/game/issues/121",
+        "title": "Worksheet 5: create a class-like UML model",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-29T09:21:02Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:design",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8aus",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWB-FA",
+        "number": 122,
+        "url": "https://github.com/idle-arcade/game/issues/122",
+        "title": "Worksheet 5: verify and update the existing sequence diagrams",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-02T13:08:13Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:design",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Saline1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8b7Y",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWDO6Q",
+        "number": 124,
+        "url": "https://github.com/idle-arcade/game/issues/124",
+        "title": "Worksheet 5: review and update the project board and user stories",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-27T16:17:02Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8bPA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWCfSw",
+        "number": 123,
+        "url": "https://github.com/idle-arcade/game/issues/123",
+        "title": "Worksheet 5: verify and update the SRS with the current user stories",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:46:24Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8c4U",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWEXUQ",
+        "number": 126,
+        "url": "https://github.com/idle-arcade/game/issues/126",
+        "title": "Worksheet 5: review and comment on external blog A",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-03T07:39:24Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Yawor1",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8cbI",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWD2Og",
+        "number": 125,
+        "url": "https://github.com/idle-arcade/game/issues/125",
+        "title": "Write and publish blog entry 4",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-01T19:32:08Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8dO8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaWE2kw",
+        "number": 127,
+        "url": "https://github.com/idle-arcade/game/issues/127",
+        "title": "Worksheet 5: review and comment on external blog B",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-02T10:57:11Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhD8Y2c",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 11,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaV_9pw",
+        "number": 120,
+        "url": "https://github.com/idle-arcade/game/issues/120",
+        "title": "Worksheet 5: class-like UML model, sequence diagrams, SRS, and blog 4",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-03T07:39:33Z",
+        "parentId": null,
+        "subIssueCount": 7,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabpo",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "number": 102,
+        "url": "https://github.com/idle-arcade/game/issues/102",
+        "title": "US09: play active Darts and purchase upgrades",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T17:06:29Z",
+        "parentId": null,
+        "subIssueCount": 6,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabqQ",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0wawg",
+        "number": 103,
+        "url": "https://github.com/idle-arcade/game/issues/103",
+        "title": "Update Darts mockups for active gameplay and upgrades",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:49:49Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:design",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabrM",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0wbgg",
+        "number": 104,
+        "url": "https://github.com/idle-arcade/game/issues/104",
+        "title": "Create the Darts balancing spreadsheet for upgrade costs and projected income",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:49:51Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:design",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabsk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0wcaQ",
+        "number": 105,
+        "url": "https://github.com/idle-arcade/game/issues/105",
+        "title": "Implement server Darts state, upgrade purchases, and batch-balance verification",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:49:53Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabtA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0wdaQ",
+        "number": 106,
+        "url": "https://github.com/idle-arcade/game/issues/106",
+        "title": "Implement client-side active Darts gameplay and throw batching",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:49:54Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabuk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0weYQ",
+        "number": 107,
+        "url": "https://github.com/idle-arcade/game/issues/107",
+        "title": "Connect the Darts interface and optimistic upgrade purchases",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:49:56Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDabvE",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0wfTA",
+        "number": 108,
+        "url": "https://github.com/idle-arcade/game/issues/108",
+        "title": "Verify active Darts gameplay, balancing integration, and synchronization",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:49:57Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0waZg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:darts"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDaL0s",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0gL2Q",
+        "number": 99,
+        "url": "https://github.com/idle-arcade/game/issues/99",
+        "title": "Integrate currency balances into the API and implement display formatting",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T17:06:27Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0gJdg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:currencies"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDaL2k",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0gNRA",
+        "number": 100,
+        "url": "https://github.com/idle-arcade/game/issues/100",
+        "title": "Verify multi-currency arithmetic, indexed persistence, and API formatting",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:20:07Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0gJdg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:currencies"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDaLy8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0gJzA",
+        "number": 97,
+        "url": "https://github.com/idle-arcade/game/issues/97",
+        "title": "Implement the backend currency amount type and integer arithmetic",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T17:06:24Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0gJdg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:currencies"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDaLz8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0gK1w",
+        "number": 98,
+        "url": "https://github.com/idle-arcade/game/issues/98",
+        "title": "Add the indexed user-currency balance table and persistence",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T17:06:25Z",
+        "parentId": "I_kwDOVEu-Os8AAAABZ0gJdg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:currencies"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDaLzE",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0gJdg",
+        "number": 96,
+        "url": "https://github.com/idle-arcade/game/issues/96",
+        "title": "US08: introduce a backend multi-currency system",
+        "state": "OPEN",
+        "updatedAt": "2026-10-25T18:20:08Z",
+        "parentId": null,
+        "subIssueCount": 4,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:currencies"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDaNWU",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZ0iBQw",
+        "number": 101,
+        "url": "https://github.com/idle-arcade/game/issues/101",
+        "title": "Bug: rename Gatcha to Gacha consistently",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T13:44:31Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:bug",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Kvrmaa",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhDZlLA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABZz13Fg",
+        "number": 94,
+        "url": "https://github.com/idle-arcade/game/issues/94",
+        "title": "Bug: Onboarding modal gets presented all the time",
+        "state": "CLOSED",
+        "updatedAt": "2026-10-31T15:13:08Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:bug",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhE_4pA",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 1,
+      "sprint": {
+        "id": "ee138021",
+        "title": "Sprint 3",
+        "startDate": "2026-10-27",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABbbXYKQ",
+        "number": 135,
+        "url": "https://github.com/idle-arcade/game/issues/135",
+        "title": "Bug: CI pipelines run for unrelated file changes",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-01T19:33:25Z",
+        "parentId": null,
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:bug",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhEA0rU",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaaftbg",
+        "number": 130,
+        "url": "https://github.com/idle-arcade/game/issues/130",
+        "title": "US13: automate dependency updates with Dependabot or Renovate",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-03T21:18:38Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhEA1Dk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaagEng",
+        "number": 131,
+        "url": "https://github.com/idle-arcade/game/issues/131",
+        "title": "Configure Dependabot or Renovate for automated dependency updates",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-03T17:31:43Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaaftbg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhEA1Ec",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 0,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABaagFWw",
+        "number": 132,
+        "url": "https://github.com/idle-arcade/game/issues/132",
+        "title": "Verify and review automated dependency-update pull requests",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-03T21:18:19Z",
+        "parentId": "I_kwDOVEu-Os8AAAABaaftbg",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFo0g8",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": 2,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFub4w",
+        "number": 147,
+        "url": "https://github.com/idle-arcade/game/issues/147",
+        "title": "Worksheet 6: review and update the project board and user stories",
+        "state": "CLOSED",
+        "updatedAt": "2026-11-03T17:13:57Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFrshQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFo0S4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFuKTQ",
+        "number": 146,
+        "url": "https://github.com/idle-arcade/game/issues/146",
+        "title": "Worksheet 6: review and comment on external blog B",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T09:42:31Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFrshQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFo1AU",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFu3kg",
+        "number": 148,
+        "url": "https://github.com/idle-arcade/game/issues/148",
+        "title": "Worksheet 6: generate effort charts with a separate reporting repository and dispatchable workflow",
+        "state": "OPEN",
+        "updatedAt": "2026-11-04T19:23:14Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFrshQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:infrastructure",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFogt0",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFcLNQ",
+        "number": 140,
+        "url": "https://github.com/idle-arcade/game/issues/140",
+        "title": "US14: enter the arcade through a colorful landing page",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T09:25:00Z",
+        "parentId": null,
+        "subIssueCount": 2,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFoiD4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFdRuw",
+        "number": 141,
+        "url": "https://github.com/idle-arcade/game/issues/141",
+        "title": "Implement the colorful landing page with image logo and arcade background",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T09:23:56Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFcLNQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFoipk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFd05Q",
+        "number": 142,
+        "url": "https://github.com/idle-arcade/game/issues/142",
+        "title": "Verify and review the colorful landing page",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T09:32:02Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFcLNQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:application-shell"
+        ],
+        "assignees": [
+          {
+            "login": "Crafter-Y",
+            "name": "Crafter-Y"
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFox8M",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFrshQ",
+        "number": 143,
+        "url": "https://github.com/idle-arcade/game/issues/143",
+        "title": "Worksheet 6: first demo report, project-board review, effort charts, and blog 5",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T09:43:36Z",
+        "parentId": null,
+        "subIssueCount": 5,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFoz4o",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFty2Q",
+        "number": 145,
+        "url": "https://github.com/idle-arcade/game/issues/145",
+        "title": "Worksheet 6: review and comment on external blog A",
+        "state": "OPEN",
+        "updatedAt": "2026-11-04T09:37:26Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFrshQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFozlc",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": {
+        "id": "06b7acb8",
+        "title": "Sprint 4",
+        "startDate": "2026-11-03",
+        "duration": 7
+      },
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcFtfuQ",
+        "number": 144,
+        "url": "https://github.com/idle-arcade/game/issues/144",
+        "title": "Write and publish blog entry 5",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T09:45:11Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcFrshQ",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:management",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:project-preparation"
+        ],
+        "assignees": [
+          {
+            "login": "1lxlos",
+            "name": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFpH9E",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcGBNVw",
+        "number": 149,
+        "url": "https://github.com/idle-arcade/game/issues/149",
+        "title": "US15: view persistent room-specific highscores with live balance updates",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T10:05:41Z",
+        "parentId": null,
+        "subIssueCount": 4,
+        "labels": [
+          "discipline:requirements",
+          "kind:story",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFpJdk",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcGCxPw",
+        "number": 151,
+        "url": "https://github.com/idle-arcade/game/issues/151",
+        "title": "Integrate backend highscores with optimistic updates and scheduled polling",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T10:04:11Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcGBNVw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFpJKw",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcGCflg",
+        "number": 150,
+        "url": "https://github.com/idle-arcade/game/issues/150",
+        "title": "Implement room-specific highscore persistence integration and API",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T10:03:53Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcGBNVw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:implementation",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFpJs4",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcGDBQw",
+        "number": 152,
+        "url": "https://github.com/idle-arcade/game/issues/152",
+        "title": "Review highscore documentation and update only outdated material",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T10:04:28Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcGBNVw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:requirements",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": []
+      }
+    },
+    {
+      "id": "PVTI_lADOFDcUrs4BmjpgzhFpKWg",
+      "archived": false,
+      "type": "ISSUE",
+      "hours": null,
+      "sprint": null,
+      "issue": {
+        "id": "I_kwDOVEu-Os8AAAABcGDmsQ",
+        "number": 153,
+        "url": "https://github.com/idle-arcade/game/issues/153",
+        "title": "Verify and review the persistent room-specific highscore system",
+        "state": "OPEN",
+        "updatedAt": "2026-11-03T10:05:06Z",
+        "parentId": "I_kwDOVEu-Os8AAAABcGBNVw",
+        "subIssueCount": 0,
+        "labels": [
+          "discipline:testing",
+          "kind:task",
+          "phase:elaboration",
+          "usecase:highscores"
+        ],
+        "assignees": []
+      }
+    }
+  ]
+}
