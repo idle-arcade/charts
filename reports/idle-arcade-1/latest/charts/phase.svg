@@ -1,12 +1,13 @@
-<svg role="img" aria-label="By phase: 100 included hours. All project effort. IDLE Arcade · Effort report
-All project effort · snapshot 2026-11-04 · 82 included issues" width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1280 720">
+<svg role="img" aria-label="By phase: 121 included hours. All project effort. IDLE Arcade · Effort report
+All project effort · snapshot 2026-11-08 · 92 included issues" width="1280" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" baseProfile="full" viewBox="0 0 1280 720">
 <rect width="1280" height="720" x="0" y="0" fill="#f8fafc"></rect>
-<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans;font-weight:700;" xml:space="preserve" y="14" transform="translate(1169.44 34)" fill="#4f46e5">100 h</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans;font-weight:700;" xml:space="preserve" y="14" transform="translate(1169.44 34)" fill="#4f46e5">121 h</text>
 <path d="M300.5 155L300.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M461.5 155L461.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M622.5 155L622.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M783.5 155L783.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
-<path d="M944.5 155L944.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M434.5 155L434.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M568.5 155L568.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M702.5 155L702.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M836.5 155L836.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
+<path d="M971.5 155L971.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
 <path d="M1105.5 155L1105.5 655" fill="none" pointer-events="visible" stroke="#e2e8f0" stroke-dasharray="4,2" class="chart-id-0"></path>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="6" transform="translate(702.5 689)" fill="#334155">Recorded effort (hours)</text>
 <path d="M-57.1 -9.5l57.1 0l0 19l-57.1 0Z" transform="translate(282 280)" fill="none" pointer-events="visible" class="chart-id-0"></path>
@@ -14,20 +15,21 @@ All project effort · snapshot 2026-11-04 · 82 included issues" width="1280" he
 <path d="M-71.1 -9.5l71.1 0l0 19l-71.1 0Z" transform="translate(282 530)" fill="none" pointer-events="visible" class="chart-id-0"></path>
 <text dominant-baseline="central" text-anchor="end" style="font-size:14px;font-family:DejaVu Sans, Arial, sans-serif;" transform="translate(282 530)" fill="#54555a">Elaboration</text>
 <text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(300 663)" fill="#54555a">0</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(461 663)" fill="#54555a">20</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(622 663)" fill="#54555a">40</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(783 663)" fill="#54555a">60</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(944 663)" fill="#54555a">80</text>
-<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(1105 663)" fill="#54555a">100</text>
-<path d="M300 266.5L374.5 266.5A6 6 0 0 1 380.5 272.5L380.5 287.5A6 6 0 0 1 374.5 293.5L300 293.5L300 266.5Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
-<path d="M300 516.5L1018.5 516.5A6 6 0 0 1 1024.5 522.5L1024.5 537.5A6 6 0 0 1 1018.5 543.5L300 543.5L300 516.5Z" fill="#06b6d4" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-2"></path>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(392.4976 280)" fill="#334155">10 h   ·   10.0%</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(1036.5 530)" fill="#334155">90 h   ·   90.0%</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(434.1667 663)" fill="#54555a">20</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(568.3333 663)" fill="#54555a">40</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(702.5 663)" fill="#54555a">60</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(836.6667 663)" fill="#54555a">80</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(970.8333 663)" fill="#54555a">100</text>
+<text dominant-baseline="central" text-anchor="middle" style="font-size:12px;font-family:DejaVu Sans, Arial, sans-serif;" y="6" transform="translate(1105 663)" fill="#54555a">120</text>
+<path d="M300 266.5L421.5 266.5A6 6 0 0 1 427.5 272.5L427.5 287.5A6 6 0 0 1 421.5 293.5L300 293.5L300 266.5Z" fill="#6366f1" ecmeta_series_index="0" ecmeta_data_index="0" ecmeta_ssr_type="chart" class="chart-id-1"></path>
+<path d="M300 516.5L978.3 516.5A6 6 0 0 1 984.3 522.5L984.3 537.5A6 6 0 0 1 978.3 543.5L300 543.5L300 516.5Z" fill="#06b6d4" ecmeta_series_index="0" ecmeta_data_index="1" ecmeta_ssr_type="chart" class="chart-id-2"></path>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(439.4583 280)" fill="#334155">19 h   ·   15.7%</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" transform="translate(996.25 530)" fill="#334155">102 h   ·   84.3%</text>
 <path d="M-5 -5l372 0l0 92l-372 0Z" transform="translate(43 33)" fill="rgb(0,0,0)" fill-opacity="0" stroke="#3c3c41" stroke-width="0" class="chart-id-0"></path>
 <text dominant-baseline="central" text-anchor="start" style="font-size:28px;font-family:DejaVu Sans, Arial, sans-serif;font-weight:700;" xml:space="preserve" y="14" transform="translate(43 33)" fill="#0f172a">By phase</text>
 <path d="M0 38l362 0l0 44l-362 0Z" transform="translate(43 33)" fill="none" pointer-events="visible" class="chart-id-0"></path>
 <text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="49" transform="translate(43 33)" fill="#64748b">IDLE Arcade · Effort report</text>
-<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="71" transform="translate(43 33)" fill="#64748b">All project effort · snapshot 2026-11-04 · 82 included issues</text>
+<text dominant-baseline="central" text-anchor="start" style="font-size:13px;font-family:DejaVu Sans, Arial, sans-serif;" xml:space="preserve" y="71" transform="translate(43 33)" fill="#64748b">All project effort · snapshot 2026-11-08 · 92 included issues</text>
 <style ><![CDATA[
 .chart-id-0:hover {
 pointer-events:none;
