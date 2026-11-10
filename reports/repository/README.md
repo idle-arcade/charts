@@ -1,6 +1,6 @@
 # IDLE Arcade repository maps
 
-Source: [idle-arcade/game at 390e651c](https://github.com/idle-arcade/game/commit/390e651c2177cc4da27a67f5d3a6fb277a672ab0). These images show file/folder structure, not runtime dependencies or software architecture. Generated artifacts stay in the charts repository; the game checkout is read-only.
+Source: [idle-arcade/game at 30e78c60](https://github.com/idle-arcade/game/commit/30e78c607e5f482811d8ae060dd63e07d98f9d0a). These images show file/folder structure, not runtime dependencies or software architecture. Generated artifacts stay in the charts repository; the game checkout is read-only.
 
 ## Repocarto
 
@@ -13,4 +13,4 @@ Source: [idle-arcade/game at 390e651c](https://github.com/idle-arcade/game/commi
 
 ![Gource repository tree](gource.png)
 
-Real Git history rendered by Gource, retaining its final frame as a PNG. Source commit: [390e651c](https://github.com/idle-arcade/game/commit/390e651c2177cc4da27a67f5d3a6fb277a672ab0). The still keeps idle files visible and hides people/motion so directory structure remains the focus. Gource and Repocarto are regenerated together on every scheduled or manual run. No video is stored.
+Real Git history rendered by Gource, retaining its final frame as a PNG. Source commit: [30e78c60](https://github.com/idle-arcade/game/commit/30e78c607e5f482811d8ae060dd63e07d98f9d0a). The still keeps idle files visible and hides people/motion so directory structure remains the focus. Gource and Repocarto are regenerated together on every scheduled or manual run. No video is stored.

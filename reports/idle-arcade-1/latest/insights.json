@@ -9,7 +9,7 @@
       {
         "discipline": "requirements",
         "phase": "elaboration",
-        "hours": 28
+        "hours": 30
       },
       {
         "discipline": "requirements",
@@ -199,7 +199,7 @@
           "category": "1lxlos",
           "stage": "person",
           "depth": 0,
-          "hours": 14
+          "hours": 15
         },
         {
           "id": "person:Yawor1",
@@ -220,14 +220,14 @@
           "category": "DevDukeKTM",
           "stage": "person",
           "depth": 0,
-          "hours": 6
+          "hours": 7
         },
         {
           "id": "discipline:requirements",
           "category": "requirements",
           "stage": "discipline",
           "depth": 1,
-          "hours": 37
+          "hours": 39
         },
         {
           "id": "discipline:management",
@@ -283,7 +283,7 @@
           "category": "project-preparation",
           "stage": "usecase",
           "depth": 2,
-          "hours": 86
+          "hours": 88
         },
         {
           "id": "usecase:application-shell",
@@ -337,7 +337,7 @@
         {
           "source": "discipline:requirements",
           "target": "usecase:project-preparation",
-          "value": 36
+          "value": 38
         },
         {
           "source": "person:Crafter-Y",
@@ -402,7 +402,7 @@
         {
           "source": "person:DevDukeKTM",
           "target": "discipline:requirements",
-          "value": 2
+          "value": 3
         },
         {
           "source": "person:Crafter-Y",
@@ -422,7 +422,7 @@
         {
           "source": "person:1lxlos",
           "target": "discipline:requirements",
-          "value": 6
+          "value": 7
         },
         {
           "source": "person:Crafter-Y",
@@ -590,7 +590,12 @@
       {
         "week": "2026-11-03",
         "label": "'26 KW45",
-        "count": 14
+        "count": 18
+      },
+      {
+        "week": "2026-11-10",
+        "label": "'26 KW46",
+        "count": 0
       }
     ],
     "issues": [
@@ -1132,6 +1137,30 @@
         "id": "I_kwDOVEu-Os8AAAABddaSXQ",
         "url": "https://github.com/idle-arcade/game/issues/178",
         "closedAt": "2026-11-08T14:32:01Z",
+        "week": "2026-11-03"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABcFdRuw",
+        "url": "https://github.com/idle-arcade/game/issues/141",
+        "closedAt": "2026-11-09T08:59:39Z",
+        "week": "2026-11-03"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABcFtfuQ",
+        "url": "https://github.com/idle-arcade/game/issues/144",
+        "closedAt": "2026-11-09T09:00:47Z",
+        "week": "2026-11-03"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABcFty2Q",
+        "url": "https://github.com/idle-arcade/game/issues/145",
+        "closedAt": "2026-11-09T18:59:43Z",
+        "week": "2026-11-03"
+      },
+      {
+        "id": "I_kwDOVEu-Os8AAAABcFuKTQ",
+        "url": "https://github.com/idle-arcade/game/issues/146",
+        "closedAt": "2026-11-09T22:02:36Z",
         "week": "2026-11-03"
       }
     ]

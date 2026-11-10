@@ -1,8 +1,8 @@
 {
   "boardItems": 132,
   "archivedItems": 0,
-  "includedIssues": 92,
-  "excludedItems": 40,
+  "includedIssues": 94,
+  "excludedItems": 38,
   "diagnostics": [
     {
       "itemId": "PVTI_lADOFDcUrs4Bmjpgzg__nuQ",
@@ -227,22 +227,10 @@
       "message": "Expected exactly one assignee; found 0. Skipping issue."
     },
     {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFo0S4",
-      "url": "https://github.com/idle-arcade/game/issues/146",
-      "code": "invalid-hours",
-      "message": "Missing, negative, or non-finite Actual Hours; skipping issue."
-    },
-    {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhFogt0",
       "url": "https://github.com/idle-arcade/game/issues/140",
       "code": "parent-rollup",
       "message": "Skipping parent total; only leaf issue hours count."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFoipk",
-      "url": "https://github.com/idle-arcade/game/issues/142",
-      "code": "invalid-hours",
-      "message": "Missing, negative, or non-finite Actual Hours; skipping issue."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhFoipk",
@@ -255,12 +243,6 @@
       "url": "https://github.com/idle-arcade/game/issues/143",
       "code": "parent-rollup",
       "message": "Skipping parent total; only leaf issue hours count."
-    },
-    {
-      "itemId": "PVTI_lADOFDcUrs4BmjpgzhFoz4o",
-      "url": "https://github.com/idle-arcade/game/issues/145",
-      "code": "invalid-hours",
-      "message": "Missing, negative, or non-finite Actual Hours; skipping issue."
     },
     {
       "itemId": "PVTI_lADOFDcUrs4BmjpgzhFpH9E",

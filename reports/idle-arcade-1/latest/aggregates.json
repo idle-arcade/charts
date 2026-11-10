@@ -1,55 +1,55 @@
 {
-  "totalHours": 121,
+  "totalHours": 123,
   "scope": "All project effort",
   "dimensions": {
     "discipline": [
       {
         "category": "requirements",
-        "hours": 37,
-        "issues": 29,
-        "percentage": 30.57851239669421
+        "hours": 39,
+        "issues": 31,
+        "percentage": 31.70731707317073
       },
       {
         "category": "management",
         "hours": 26,
         "issues": 24,
-        "percentage": 21.487603305785125
+        "percentage": 21.138211382113823
       },
       {
         "category": "implementation",
         "hours": 23,
         "issues": 16,
-        "percentage": 19.00826446280992
+        "percentage": 18.69918699186992
       },
       {
         "category": "infrastructure",
         "hours": 19,
         "issues": 9,
-        "percentage": 15.702479338842975
+        "percentage": 15.447154471544716
       },
       {
         "category": "design",
         "hours": 7,
         "issues": 4,
-        "percentage": 5.785123966942149
+        "percentage": 5.691056910569105
       },
       {
         "category": "testing",
         "hours": 7,
         "issues": 8,
-        "percentage": 5.785123966942149
+        "percentage": 5.691056910569105
       },
       {
         "category": "configuration",
         "hours": 1,
         "issues": 1,
-        "percentage": 0.8264462809917356
+        "percentage": 0.8130081300813009
       },
       {
         "category": "deployment",
         "hours": 1,
         "issues": 1,
-        "percentage": 0.8264462809917356
+        "percentage": 0.8130081300813009
       }
     ],
     "phase": [
@@ -57,57 +57,57 @@
         "category": "inception",
         "hours": 19,
         "issues": 17,
-        "percentage": 15.702479338842975
+        "percentage": 15.447154471544716
       },
       {
         "category": "elaboration",
-        "hours": 102,
-        "issues": 75,
-        "percentage": 84.29752066115702
+        "hours": 104,
+        "issues": 77,
+        "percentage": 84.5528455284553
       }
     ],
     "usecase": [
       {
         "category": "project-preparation",
-        "hours": 86,
-        "issues": 68,
-        "percentage": 71.07438016528926
+        "hours": 88,
+        "issues": 70,
+        "percentage": 71.54471544715447
       },
       {
         "category": "application-shell",
         "hours": 17,
         "issues": 9,
-        "percentage": 14.049586776859504
+        "percentage": 13.821138211382115
       },
       {
         "category": "telemetry",
         "hours": 7,
         "issues": 3,
-        "percentage": 5.785123966942149
+        "percentage": 5.691056910569105
       },
       {
         "category": "currencies",
         "hours": 3,
         "issues": 4,
-        "percentage": 2.479338842975207
+        "percentage": 2.4390243902439024
       },
       {
         "category": "darts",
         "hours": 3,
         "issues": 2,
-        "percentage": 2.479338842975207
+        "percentage": 2.4390243902439024
       },
       {
         "category": "highscores",
         "hours": 3,
         "issues": 4,
-        "percentage": 2.479338842975207
+        "percentage": 2.4390243902439024
       },
       {
         "category": "navigation",
         "hours": 2,
         "issues": 2,
-        "percentage": 1.6528925619834711
+        "percentage": 1.6260162601626018
       }
     ],
     "person": [
@@ -115,37 +115,37 @@
         "category": "Crafter-Y",
         "hours": 63,
         "issues": 41,
-        "percentage": 52.066115702479344
+        "percentage": 51.21951219512195
       },
       {
         "category": "Kvrmaa",
         "hours": 16,
         "issues": 14,
-        "percentage": 13.223140495867769
+        "percentage": 13.008130081300814
       },
       {
         "category": "1lxlos",
-        "hours": 14,
-        "issues": 12,
-        "percentage": 11.570247933884298
+        "hours": 15,
+        "issues": 13,
+        "percentage": 12.195121951219512
       },
       {
         "category": "Yawor1",
         "hours": 13,
         "issues": 12,
-        "percentage": 10.743801652892563
+        "percentage": 10.569105691056912
       },
       {
         "category": "Saline1",
         "hours": 9,
         "issues": 7,
-        "percentage": 7.43801652892562
+        "percentage": 7.317073170731707
       },
       {
         "category": "DevDukeKTM",
-        "hours": 6,
-        "issues": 6,
-        "percentage": 4.958677685950414
+        "hours": 7,
+        "issues": 7,
+        "percentage": 5.691056910569105
       }
     ]
   }
